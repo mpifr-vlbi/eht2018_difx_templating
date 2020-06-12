@@ -42,6 +42,6 @@ enddef;
 *------------------------------------------------------------------------------
 ** include <sources_all.vex>
 ** include <sched_all.vex>
-** include <eop_e18a24.vex>
+** include <eop_all.vex>
 ** loaddata <clocks_e18a24.dat>
 *------------------------------------------------------------------------------
