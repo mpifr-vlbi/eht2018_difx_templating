@@ -1,0 +1,246 @@
+$CLOCK;
+*
+def Aa;
+  clock_early = 2018y110d00h00m00s: 2107.147 usec: 2018y110d22h38m00s: 0.019e-12;
+enddef;
+*
+def Ax;
+  clock_early = 2018y110d00h00m00s: 0 usec: 2018y110d22h38m00s : 0;
+enddef;
+*
+def Gl;
+  clock_early = 2018y110d22h38m00s: 0 usec: 2018y110d22h38m00s : 0;
+enddef;
+*
+def Lm;
+  clock_early = 2018y110d00h00m00s: 0 usec: 2018y110d22h38m00s : 0;
+enddef;
+*
+def Mm; * JCMT
+  clock_early = 2018y110d00h00m00s: 0 usec: 2018y110d22h38m00s : 0;
+enddef;
+*
+def Mg; * SMT
+  clock_early = 2018y110d00h00m00s: 0 usec: 2018y108d00h00m00s : 0;
+enddef;
+*
+def Pv;
+  clock_early = 2018y110d00h00m00s: 0 usec: 2018y110d22h38m00s : 0;
+enddef;
+**
+def Sw; * SMA APHIDS
+  ** ./vexdelay.py -f SMA_delays.csv.rx230.???? done by Mike T.
+  ** and copied here from e18c21-0-b3.vex.obs
+  clock_early=2018y111d03h48m00s : 0.973709 usec : 2018y111d03h48m00s : 2.08e-13 ;
+  clock_early=2018y111d04h12m00s : 0.962722 usec : 2018y111d04h12m00s : 2.08e-13 ;
+  clock_early=2018y111d04h20m00s : 0.964431 usec : 2018y111d04h20m00s : 2.08e-13 ;
+  clock_early=2018y111d04h40m00s : 0.961502 usec : 2018y111d04h40m00s : 2.08e-13 ;
+  clock_early=2018y111d04h48m00s : 0.972976 usec : 2018y111d04h48m00s : 2.08e-13 ;
+  clock_early=2018y111d04h59m00s : 0.962967 usec : 2018y111d04h59m00s : 2.08e-13 ;
+  clock_early=2018y111d05h12m00s : 0.973953 usec : 2018y111d05h12m00s : 2.08e-13 ;
+  clock_early=2018y111d05h20m00s : 0.973465 usec : 2018y111d05h20m00s : 2.08e-13 ;
+  clock_early=2018y111d05h30m00s : 0.960525 usec : 2018y111d05h30m00s : 2.08e-13 ;
+  clock_early=2018y111d05h40m00s : 0.963211 usec : 2018y111d05h40m00s : 2.08e-13 ;
+  clock_early=2018y111d05h48m00s : 0.960525 usec : 2018y111d05h48m00s : 2.08e-13 ;
+  clock_early=2018y111d05h59m00s : 0.972732 usec : 2018y111d05h59m00s : 2.08e-13 ;
+  clock_early=2018y111d06h12m00s : 0.973465 usec : 2018y111d06h12m00s : 2.08e-13 ;
+  clock_early=2018y111d06h20m00s : 0.972976 usec : 2018y111d06h20m00s : 2.08e-13 ;
+  clock_early=2018y111d06h30m00s : 0.971511 usec : 2018y111d06h30m00s : 2.08e-13 ;
+  clock_early=2018y111d06h40m00s : 0.962478 usec : 2018y111d06h40m00s : 2.08e-13 ;
+  clock_early=2018y111d06h48m00s : 0.962478 usec : 2018y111d06h48m00s : 2.08e-13 ;
+  clock_early=2018y111d06h59m00s : 0.972000 usec : 2018y111d06h59m00s : 2.08e-13 ;
+  clock_early=2018y111d09h39m00s : 0.963211 usec : 2018y111d09h39m00s : 2.08e-13 ;
+  clock_early=2018y111d10h27m00s : 0.961502 usec : 2018y111d10h27m00s : 2.08e-13 ;
+  clock_early=2018y111d10h36m00s : 0.962234 usec : 2018y111d10h36m00s : 2.08e-13 ;
+  clock_early=2018y111d10h48m00s : 0.973953 usec : 2018y111d10h48m00s : 2.08e-13 ;
+  clock_early=2018y111d10h59m00s : 0.971756 usec : 2018y111d10h59m00s : 2.08e-13 ;
+  clock_early=2018y111d11h12m00s : 0.963211 usec : 2018y111d11h12m00s : 2.08e-13 ;
+  clock_early=2018y111d11h23m00s : 0.961013 usec : 2018y111d11h23m00s : 2.08e-13 ;
+  clock_early=2018y111d11h36m00s : 0.963699 usec : 2018y111d11h36m00s : 2.08e-13 ;
+  clock_early=2018y111d11h45m00s : 0.974685 usec : 2018y111d11h45m00s : 2.08e-13 ;
+  clock_early=2018y111d11h55m00s : 0.961746 usec : 2018y111d11h55m00s : 2.08e-13 ;
+  clock_early=2018y111d12h08m00s : 0.973709 usec : 2018y111d12h08m00s : 2.08e-13 ;
+  clock_early=2018y111d12h22m00s : 0.972488 usec : 2018y111d12h22m00s : 2.08e-13 ;
+  clock_early=2018y111d12h35m00s : 0.971756 usec : 2018y111d12h35m00s : 2.08e-13 ;
+  clock_early=2018y111d12h50m00s : 0.973220 usec : 2018y111d12h50m00s : 2.08e-13 ;
+  clock_early=2018y111d12h59m00s : 0.960525 usec : 2018y111d12h59m00s : 2.08e-13 ;
+  clock_early=2018y111d13h12m00s : 0.961502 usec : 2018y111d13h12m00s : 2.08e-13 ;
+  clock_early=2018y111d13h21m00s : 0.960769 usec : 2018y111d13h21m00s : 2.08e-13 ;
+  clock_early=2018y111d13h38m00s : 0.971511 usec : 2018y111d13h38m00s : 2.08e-13 ;
+  clock_early=2018y111d13h51m00s : 0.964187 usec : 2018y111d13h51m00s : 2.08e-13 ;
+  clock_early=2018y111d14h04m00s : 0.963455 usec : 2018y111d14h04m00s : 2.08e-13 ;
+  clock_early=2018y111d14h14m00s : 0.973465 usec : 2018y111d14h14m00s : 2.08e-13 ;
+  clock_early=2018y111d14h32m00s : 0.963943 usec : 2018y111d14h32m00s : 2.08e-13 ;
+  ** e18e22-0-b3.vex.obs
+  clock_early=2018y112d10h19m00s : 0.981746 usec : 2018y112d10h19m00s : 2.08e-13 ;
+  clock_early=2018y112d10h47m00s : 0.994197 usec : 2018y112d10h47m00s : 2.08e-13 ;
+  clock_early=2018y112d11h05m00s : 0.980769 usec : 2018y112d11h05m00s : 2.08e-13 ;
+  clock_early=2018y112d11h22m00s : 0.993220 usec : 2018y112d11h22m00s : 2.08e-13 ;
+  clock_early=2018y112d11h29m00s : 0.981990 usec : 2018y112d11h29m00s : 2.08e-13 ;
+  clock_early=2018y112d11h42m00s : 0.993953 usec : 2018y112d11h42m00s : 2.08e-13 ;
+  clock_early=2018y112d11h56m00s : 0.981013 usec : 2018y112d11h56m00s : 2.08e-13 ;
+  clock_early=2018y112d12h07m00s : 0.994441 usec : 2018y112d12h07m00s : 2.08e-13 ;
+  clock_early=2018y112d12h19m00s : 0.982722 usec : 2018y112d12h19m00s : 2.08e-13 ;
+  clock_early=2018y112d12h29m00s : 0.992732 usec : 2018y112d12h29m00s : 2.08e-13 ;
+  clock_early=2018y112d12h45m00s : 0.994197 usec : 2018y112d12h45m00s : 2.08e-13 ;
+  clock_early=2018y112d12h52m00s : 0.982722 usec : 2018y112d12h52m00s : 2.08e-13 ;
+  clock_early=2018y112d13h03m00s : 0.980525 usec : 2018y112d13h03m00s : 2.08e-13 ;
+  clock_early=2018y112d13h18m00s : 0.994197 usec : 2018y112d13h18m00s : 2.08e-13 ;
+  clock_early=2018y112d13h25m00s : 0.992244 usec : 2018y112d13h25m00s : 2.08e-13 ;
+  clock_early=2018y112d13h43m00s : 0.982722 usec : 2018y112d13h43m00s : 2.08e-13 ;
+  clock_early=2018y112d13h56m00s : 0.993709 usec : 2018y112d13h56m00s : 2.08e-13 ;
+  clock_early=2018y112d14h05m00s : 0.992732 usec : 2018y112d14h05m00s : 2.08e-13 ;
+  clock_early=2018y112d14h14m00s : 0.981990 usec : 2018y112d14h14m00s : 2.08e-13 ;
+  clock_early=2018y112d14h33m00s : 0.983699 usec : 2018y112d14h33m00s : 2.08e-13 ;
+  ** e18a24-0-b2.vex.obs
+  clock_early=2018y114d09h42m00s : 0.944677 usec : 2018y114d09h42m00s : 2.08e-13 ;
+  clock_early=2018y114d10h15m00s : 0.952734 usec : 2018y114d10h15m00s : 2.08e-13 ;
+  clock_early=2018y114d10h22m00s : 0.942968 usec : 2018y114d10h22m00s : 2.08e-13 ;
+  clock_early=2018y114d10h40m00s : 0.941259 usec : 2018y114d10h40m00s : 2.08e-13 ;
+  clock_early=2018y114d11h04m00s : 0.954199 usec : 2018y114d11h04m00s : 2.08e-13 ;
+  clock_early=2018y114d11h15m00s : 0.955908 usec : 2018y114d11h15m00s : 2.08e-13 ;
+  clock_early=2018y114d11h36m00s : 0.955175 usec : 2018y114d11h36m00s : 2.08e-13 ;
+  clock_early=2018y114d11h47m00s : 0.952978 usec : 2018y114d11h47m00s : 2.08e-13 ;
+  clock_early=2018y114d12h01m00s : 0.939795 usec : 2018y114d12h01m00s : 2.08e-13 ;
+  clock_early=2018y114d12h13m00s : 0.944922 usec : 2018y114d12h13m00s : 2.08e-13 ;
+  clock_early=2018y114d12h20m00s : 0.945410 usec : 2018y114d12h20m00s : 2.08e-13 ;
+  clock_early=2018y114d12h34m00s : 0.955664 usec : 2018y114d12h34m00s : 2.08e-13 ;
+  clock_early=2018y114d12h41m00s : 0.953955 usec : 2018y114d12h41m00s : 2.08e-13 ;
+  clock_early=2018y114d12h54m00s : 0.940771 usec : 2018y114d12h54m00s : 2.08e-13 ;
+  clock_early=2018y114d13h12m00s : 0.956884 usec : 2018y114d13h12m00s : 2.08e-13 ;
+  clock_early=2018y114d13h26m00s : 0.955175 usec : 2018y114d13h26m00s : 2.08e-13 ;
+  clock_early=2018y114d13h37m00s : 0.955664 usec : 2018y114d13h37m00s : 2.08e-13 ;
+  clock_early=2018y114d13h49m00s : 0.944922 usec : 2018y114d13h49m00s : 2.08e-13 ;
+  clock_early=2018y114d14h00m00s : 0.942968 usec : 2018y114d14h00m00s : 2.08e-13 ;
+  clock_early=2018y114d14h08m00s : 0.942968 usec : 2018y114d14h08m00s : 2.08e-13 ;
+  clock_early=2018y114d14h16m00s : 0.955664 usec : 2018y114d14h16m00s : 2.08e-13 ;
+  clock_early=2018y114d14h31m00s : 0.956152 usec : 2018y114d14h31m00s : 2.08e-13 ;
+  clock_early=2018y114d14h55m00s : 0.954687 usec : 2018y114d14h55m00s : 2.08e-13 ;
+  clock_early=2018y114d15h17m00s : 0.945166 usec : 2018y114d15h17m00s : 2.08e-13 ;
+  clock_early=2018y114d15h27m00s : 0.943945 usec : 2018y114d15h27m00s : 2.08e-13 ;
+  clock_early=2018y114d15h40m00s : 0.942968 usec : 2018y114d15h40m00s : 2.08e-13 ;
+  ** e18c25-0-b2.vex.obs
+  clock_early=2018y115d03h32m00s : 0.960189 usec : 2018y115d03h32m00s : 2.08e-13 ;
+  clock_early=2018y115d03h56m00s : 0.968978 usec : 2018y115d03h56m00s : 2.08e-13 ;
+  clock_early=2018y115d04h04m00s : 0.970199 usec : 2018y115d04h04m00s : 2.08e-13 ;
+  clock_early=2018y115d04h24m00s : 0.955550 usec : 2018y115d04h24m00s : 2.08e-13 ;
+  clock_early=2018y115d04h32m00s : 0.959457 usec : 2018y115d04h32m00s : 2.08e-13 ;
+  clock_early=2018y115d04h43m00s : 0.961166 usec : 2018y115d04h43m00s : 2.08e-13 ;
+  clock_early=2018y115d04h56m00s : 0.956527 usec : 2018y115d04h56m00s : 2.08e-13 ;
+  clock_early=2018y115d05h04m00s : 0.960433 usec : 2018y115d05h04m00s : 2.08e-13 ;
+  clock_early=2018y115d05h14m00s : 0.970443 usec : 2018y115d05h14m00s : 2.08e-13 ;
+  clock_early=2018y115d05h24m00s : 0.969222 usec : 2018y115d05h24m00s : 2.08e-13 ;
+  clock_early=2018y115d05h32m00s : 0.954818 usec : 2018y115d05h32m00s : 2.08e-13 ;
+* Mike commented out:
+* clock_early=2018y115d05h43m00s : -597.489030 usec : 2018y115d05h43m00s : 2.08e-13 ;
+  clock_early=2018y115d05h43m00s:    0.952 usec : 2018y115d05h43m00s:  0.208e-12 ;
+* Mike commented out:
+* clock_early=2018y115d05h56m00s : -705.285172 usec : 2018y115d05h56m00s : 2.08e-13 ;
+  clock_early=2018y115d05h56m00s:    0.952 usec : 2018y115d05h56m00s:  0.208e-12 ;
+  clock_early=2018y115d06h04m00s : 0.971420 usec : 2018y115d06h04m00s : 2.08e-13 ;
+  clock_early=2018y115d06h14m00s : 0.962142 usec : 2018y115d06h14m00s : 2.08e-13 ;
+  clock_early=2018y115d06h24m00s : 0.972396 usec : 2018y115d06h24m00s : 2.08e-13 ;
+  clock_early=2018y115d06h32m00s : 0.960433 usec : 2018y115d06h32m00s : 2.08e-13 ;
+  clock_early=2018y115d06h43m00s : 0.969955 usec : 2018y115d06h43m00s : 2.08e-13 ;
+  clock_early=2018y115d09h23m00s : 0.969222 usec : 2018y115d09h23m00s : 2.08e-13 ;
+  clock_early=2018y115d10h11m00s : 0.959701 usec : 2018y115d10h11m00s : 2.08e-13 ;
+  clock_early=2018y115d10h20m00s : 0.971908 usec : 2018y115d10h20m00s : 2.08e-13 ;
+  clock_early=2018y115d10h32m00s : 0.959945 usec : 2018y115d10h32m00s : 2.08e-13 ;
+  clock_early=2018y115d10h43m00s : 0.969711 usec : 2018y115d10h43m00s : 2.08e-13 ;
+  clock_early=2018y115d10h56m00s : 0.961410 usec : 2018y115d10h56m00s : 2.08e-13 ;
+  clock_early=2018y115d11h07m00s : 0.970931 usec : 2018y115d11h07m00s : 2.08e-13 ;
+  clock_early=2018y115d11h20m00s : 0.962386 usec : 2018y115d11h20m00s : 2.08e-13 ;
+  clock_early=2018y115d11h29m00s : 0.969222 usec : 2018y115d11h29m00s : 2.08e-13 ;
+  clock_early=2018y115d11h39m00s : 0.971420 usec : 2018y115d11h39m00s : 2.08e-13 ;
+  clock_early=2018y115d11h52m00s : 0.956283 usec : 2018y115d11h52m00s : 2.08e-13 ;
+  clock_early=2018y115d12h06m00s : 0.970931 usec : 2018y115d12h06m00s : 2.08e-13 ;
+  clock_early=2018y115d12h19m00s : 0.969711 usec : 2018y115d12h19m00s : 2.08e-13 ;
+  clock_early=2018y115d12h34m00s : 0.959945 usec : 2018y115d12h34m00s : 2.08e-13 ;
+  clock_early=2018y115d12h43m00s : 0.970931 usec : 2018y115d12h43m00s : 2.08e-13 ;
+  clock_early=2018y115d12h56m00s : 0.959457 usec : 2018y115d12h56m00s : 2.08e-13 ;
+  clock_early=2018y115d13h05m00s : 0.970443 usec : 2018y115d13h05m00s : 2.08e-13 ;
+  clock_early=2018y115d13h22m00s : 0.961898 usec : 2018y115d13h22m00s : 2.08e-13 ;
+  clock_early=2018y115d13h35m00s : 0.958236 usec : 2018y115d13h35m00s : 2.08e-13 ;
+  clock_early=2018y115d13h48m00s : 0.969467 usec : 2018y115d13h48m00s : 2.08e-13 ;
+  clock_early=2018y115d13h58m00s : 0.960189 usec : 2018y115d13h58m00s : 2.08e-13 ;
+  clock_early=2018y115d14h16m00s : 0.958480 usec : 2018y115d14h16m00s : 2.08e-13 ;
+  ** e18g27-0-b2.vex.obs
+  clock_early=2018y117d00h03m00s : 0.967498 usec : 2018y117d00h03m00s : 2.08e-13 ;
+  clock_early=2018y117d00h11m00s : 0.967009 usec : 2018y117d00h11m00s : 2.08e-13 ;
+  clock_early=2018y117d01h08m00s : 0.964080 usec : 2018y117d01h08m00s : 2.08e-13 ;
+  clock_early=2018y117d01h16m00s : 0.957976 usec : 2018y117d01h16m00s : 2.08e-13 ;
+  clock_early=2018y117d01h37m00s : 0.968474 usec : 2018y117d01h37m00s : 2.08e-13 ;
+  clock_early=2018y117d01h45m00s : 0.957976 usec : 2018y117d01h45m00s : 2.08e-13 ;
+  clock_early=2018y117d02h09m00s : 0.967009 usec : 2018y117d02h09m00s : 2.08e-13 ;
+  clock_early=2018y117d02h20m00s : 0.955291 usec : 2018y117d02h20m00s : 2.08e-13 ;
+  clock_early=2018y117d02h27m00s : 0.953338 usec : 2018y117d02h27m00s : 2.08e-13 ;
+  clock_early=2018y117d02h37m00s : 0.956023 usec : 2018y117d02h37m00s : 2.08e-13 ;
+  clock_early=2018y117d02h45m00s : 0.956023 usec : 2018y117d02h45m00s : 2.08e-13 ;
+  clock_early=2018y117d03h04m00s : 0.957732 usec : 2018y117d03h04m00s : 2.08e-13 ;
+  clock_early=2018y117d03h30m00s : 0.957244 usec : 2018y117d03h30m00s : 2.08e-13 ;
+  clock_early=2018y117d03h38m00s : 0.965056 usec : 2018y117d03h38m00s : 2.08e-13 ;
+  clock_early=2018y117d03h56m00s : 0.957000 usec : 2018y117d03h56m00s : 2.08e-13 ;
+  clock_early=2018y117d04h05m00s : 0.956267 usec : 2018y117d04h05m00s : 2.08e-13 ;
+  clock_early=2018y117d04h20m00s : 0.958220 usec : 2018y117d04h20m00s : 2.08e-13 ;
+  clock_early=2018y117d04h28m00s : 0.957732 usec : 2018y117d04h28m00s : 2.08e-13 ;
+  clock_early=2018y117d04h36m00s : 0.959197 usec : 2018y117d04h36m00s : 2.08e-13 ;
+  clock_early=2018y117d04h46m00s : 0.968230 usec : 2018y117d04h46m00s : 2.08e-13 ;
+  clock_early=2018y117d04h54m00s : 0.969207 usec : 2018y117d04h54m00s : 2.08e-13 ;
+  clock_early=2018y117d05h03m00s : 0.968474 usec : 2018y117d05h03m00s : 2.08e-13 ;
+  clock_early=2018y117d05h17m00s : 0.967009 usec : 2018y117d05h17m00s : 2.08e-13 ;
+  clock_early=2018y117d05h26m00s : 0.958465 usec : 2018y117d05h26m00s : 2.08e-13 ;
+  clock_early=2018y117d05h34m00s : 0.967254 usec : 2018y117d05h34m00s : 2.08e-13 ;
+  clock_early=2018y117d05h44m00s : 0.958220 usec : 2018y117d05h44m00s : 2.08e-13 ;
+  clock_early=2018y117d06h32m00s : 0.964324 usec : 2018y117d06h32m00s : 2.08e-13 ;
+  clock_early=2018y117d06h42m00s : 0.966521 usec : 2018y117d06h42m00s : 2.08e-13 ;
+  clock_early=2018y117d06h52m00s : 0.969207 usec : 2018y117d06h52m00s : 2.08e-13 ;
+  clock_early=2018y117d07h02m00s : 0.967742 usec : 2018y117d07h02m00s : 2.08e-13 ;
+  clock_early=2018y117d07h17m00s : 0.963836 usec : 2018y117d07h17m00s : 2.08e-13 ;
+  clock_early=2018y117d07h27m00s : 0.966521 usec : 2018y117d07h27m00s : 2.08e-13 ;
+  clock_early=2018y117d07h37m00s : 0.957488 usec : 2018y117d07h37m00s : 2.08e-13 ;
+  clock_early=2018y117d07h52m00s : 0.966765 usec : 2018y117d07h52m00s : 2.08e-13 ;
+  clock_early=2018y117d08h03m00s : 0.956756 usec : 2018y117d08h03m00s : 2.08e-13 ;
+  clock_early=2018y117d08h13m00s : 0.955535 usec : 2018y117d08h13m00s : 2.08e-13 ;
+  clock_early=2018y117d08h43m00s : 0.966765 usec : 2018y117d08h43m00s : 2.08e-13 ;
+  clock_early=2018y117d08h53m00s : 0.965545 usec : 2018y117d08h53m00s : 2.08e-13 ;
+  clock_early=2018y117d09h08m00s : 0.955535 usec : 2018y117d09h08m00s : 2.08e-13 ;
+  clock_early=2018y117d09h18m00s : 0.957976 usec : 2018y117d09h18m00s : 2.08e-13 ;
+  clock_early=2018y117d09h28m00s : 0.968230 usec : 2018y117d09h28m00s : 2.08e-13 ;
+  ** e18d28-0-b2.vex.obs
+  clock_early=2018y118d03h33m00s : 0.990451 usec : 2018y118d03h33m00s : 2.08e-13 ;
+  clock_early=2018y118d03h43m00s : 0.977023 usec : 2018y118d03h43m00s : 2.08e-13 ;
+  clock_early=2018y118d03h52m00s : 0.976535 usec : 2018y118d03h52m00s : 2.08e-13 ;
+  clock_early=2018y118d04h17m00s : 0.977023 usec : 2018y118d04h17m00s : 2.08e-13 ;
+  clock_early=2018y118d05h15m00s : 0.973361 usec : 2018y118d05h15m00s : 2.08e-13 ;
+  clock_early=2018y118d05h22m00s : 0.979220 usec : 2018y118d05h22m00s : 2.08e-13 ;
+  clock_early=2018y118d05h53m00s : 0.988742 usec : 2018y118d05h53m00s : 2.08e-13 ;
+  clock_early=2018y118d06h01m00s : 0.989718 usec : 2018y118d06h01m00s : 2.08e-13 ;
+  clock_early=2018y118d06h10m00s : 0.977511 usec : 2018y118d06h10m00s : 2.08e-13 ;
+  clock_early=2018y118d06h17m00s : 0.978000 usec : 2018y118d06h17m00s : 2.08e-13 ;
+  clock_early=2018y118d06h23m00s : 0.988254 usec : 2018y118d06h23m00s : 2.08e-13 ;
+  clock_early=2018y118d06h31m00s : 0.977756 usec : 2018y118d06h31m00s : 2.08e-13 ;
+  clock_early=2018y118d06h41m00s : 0.988009 usec : 2018y118d06h41m00s : 2.08e-13 ;
+  clock_early=2018y118d06h54m00s : 0.979465 usec : 2018y118d06h54m00s : 2.08e-13 ;
+  clock_early=2018y118d07h03m00s : 0.990451 usec : 2018y118d07h03m00s : 2.08e-13 ;
+  clock_early=2018y118d07h13m00s : 0.977267 usec : 2018y118d07h13m00s : 2.08e-13 ;
+  clock_early=2018y118d07h20m00s : 0.978976 usec : 2018y118d07h20m00s : 2.08e-13 ;
+  clock_early=2018y118d07h28m00s : 0.986789 usec : 2018y118d07h28m00s : 2.08e-13 ;
+  clock_early=2018y118d07h37m00s : 0.978000 usec : 2018y118d07h37m00s : 2.08e-13 ;
+  clock_early=2018y118d07h48m00s : 0.976291 usec : 2018y118d07h48m00s : 2.08e-13 ;
+  clock_early=2018y118d08h01m00s : 0.987033 usec : 2018y118d08h01m00s : 2.08e-13 ;
+  clock_early=2018y118d08h10m00s : 0.978244 usec : 2018y118d08h10m00s : 2.08e-13 ;
+  clock_early=2018y118d08h17m00s : 0.984103 usec : 2018y118d08h17m00s : 2.08e-13 ;
+  clock_early=2018y118d08h26m00s : 0.979465 usec : 2018y118d08h26m00s : 2.08e-13 ;
+  clock_early=2018y118d08h35m00s : 0.975070 usec : 2018y118d08h35m00s : 2.08e-13 ;
+  clock_early=2018y118d08h44m00s : 0.989963 usec : 2018y118d08h44m00s : 2.08e-13 ;
+  clock_early=2018y118d08h53m00s : 0.978488 usec : 2018y118d08h53m00s : 2.08e-13 ;
+  clock_early=2018y118d09h07m00s : 0.977267 usec : 2018y118d09h07m00s : 2.08e-13 ;
+  clock_early=2018y118d09h16m00s : 0.988009 usec : 2018y118d09h16m00s : 2.08e-13 ;
+  clock_early=2018y118d09h24m00s : 0.984103 usec : 2018y118d09h24m00s : 2.08e-13 ;
+  clock_early=2018y118d09h33m00s : 0.979465 usec : 2018y118d09h33m00s : 2.08e-13 ;
+enddef;
+*
+def Sz; * SPT
+  clock_early = 2018y110d00h00m00s: 0 usec: 2018y110d22h38m00s : 0;
+enddef;
+*------------------------------------------------------------------------------

@@ -1,0 +1,41 @@
+DATASTREAM Ax_ds12 {
+  filelist = ehtc2018_APEX_band4.12.filelist
+}
+DATASTREAM Ax_ds34 {
+  filelist = ehtc2018_APEX_band4.34.filelist
+}
+DATASTREAM Pv_ds12 {
+  filelist = ehtc2018_Pico_band4.12.filelist
+}
+DATASTREAM Pv_ds34 {
+  filelist = ehtc2018_Pico_band4.34.filelist
+}
+DATASTREAM Glt_ds12 {
+  filelist = ehtc2018_GLT_band4.12.filelist-beegfs
+}
+DATASTREAM Glt_ds34 {
+  filelist = ehtc2018_GLT_band4.34.filelist-beegfs
+}
+DATASTREAM Lmt_ds12 {
+  filelist = ehtc2018_LMT_band4.12.filelist
+}
+DATASTREAM Lmt_ds34 {
+  filelist = ehtc2018_LMT_band4.34.filelist
+}
+DATASTREAM Jcmt_ds12 {
+  # MM module says "b1 & b4 DSB"
+  # IF signal has band 1 folded on top of band 4
+  filelist = ehtc2018_Jcmt_band14.12.filelist-beegfs
+}
+DATASTREAM SmaAphids_ds12 {
+  filelist = ehtc2018_SMA_band4.12.filelist
+}
+DATASTREAM SmaAphids_ds34 {
+  filelist = ehtc2018_SMA_band4.34.filelist
+}
+DATASTREAM Smt_ds12 {
+  filelist = ehtc2018_SMT_band4.12.filelist
+}
+DATASTREAM Smt_ds34 {
+  filelist = ehtc2018_SMT_band4.34.filelist
+}

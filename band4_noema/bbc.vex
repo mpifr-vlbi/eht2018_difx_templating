@@ -1,0 +1,24 @@
+$BBC;
+*
+def COMMON_BBC_1POL_L;
+     BBC_assign = &BBC01 : 1 : &IF_BAND4L;
+enddef;
+def COMMON_BBC_1POL_R;
+     BBC_assign = &BBC01 : 1 : &IF_BAND4R;
+enddef;
+*
+def COMMON_BBC; * RCP in v2d datastream 1, LCP in v2d datastream 2
+     BBC_assign = &BBC01 : 1 : &IF_BAND4L;
+     BBC_assign = &BBC02 : 2 : &IF_BAND4R;
+enddef;
+*
+def REVERSE_BBC; * RCP in v2d datastream 2, LCP in v2d datastream 1
+     BBC_assign = &BBC01 : 1: &IF_BAND4R;
+     BBC_assign = &BBC02 : 2: &IF_BAND4L;
+enddef;
+*
+def ALMA_BBC;   * Aa
+     BBC_assign = &BBC05 : 5 : &IF_Q3X;
+     BBC_assign = &BBC06 : 6 : &IF_Q3Y;
+enddef;
+*------------------------------------------------------------------------------

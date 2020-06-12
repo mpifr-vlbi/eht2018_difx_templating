@@ -1,0 +1,7 @@
+# Did not observe e18g27:  LMT (L), SPT (Y), APEX (X)
+
+# Manual phase calib scans
+# scan = 116-2225  # for Pico, in band 1
+# scan = 117-0446
+# scan = 117-0036  # for Pico, in band 4
+

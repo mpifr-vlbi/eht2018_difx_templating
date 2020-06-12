@@ -1,0 +1,103 @@
+$SOURCE;
+*
+def SGRA;
+     source_name = SGRA;
+*    this source had calibrator code:
+    * new position from Vincent (for 2018), ??th April 2019
+     ra = 17h45m40.0356000s; dec = -29d00'28.240000"; ref_coord_frame = J2000;
+enddef;
+*
+def 3C279;
+     source_name = 3C279;
+*    this source had calibrator code: V
+*    alternate source name: J1256-0547
+*    alternate source name: 1253-055
+*    alternate source name: J1256-05
+*    GSFC 2011B astro solution      7402 Observations
+     ra = 12h56m11.1665670s; dec = -05d47'21.524810"; ref_coord_frame = J2000;
+*    ra = 12h53m35.8312994s; dec = -05d31'07.995950"; ref_coord_frame = B1950;
+*    ra = 12h57m08.4489502s; dec = -05d53'17.916177"; ref_coord_frame = Date;
+enddef;
+*
+def NRAO530;
+     source_name = NRAO530;
+*    this source had calibrator code: V
+*    alternate source name: J1733-1304
+*    alternate source name: 1730-130
+*    alternate source name: J1733-13
+*    rfc_2012b Petrov, 2012, unpublished 17851 observations
+     ra = 17h33m02.7057870s; dec = -13d04'49.548400"; ref_coord_frame = J2000;
+*    ra = 17h30m13.5351893s; dec = -13d02'45.839925"; ref_coord_frame = B1950;
+*    ra = 17h34m04.5939502s; dec = -13d05'28.754292"; ref_coord_frame = Date;
+enddef;
+*
+def J1800+7828;
+     source_name = J1800+7828;
+*    this source had calibrator code: V
+*    alternate source name: 1803+784
+*    alternate source name: J1800+78
+*    rfc_2012b Petrov, 2012, unpublished 200776 observations
+     ra = 18h00m45.6839030s; dec =  78d28'04.018380"; ref_coord_frame = J2000;
+*    ra = 18h03m39.1935255s; dec =  78d27'54.297438"; ref_coord_frame = B1950;
+*    ra = 17h59m46.7607825s; dec =  78d27'53.505346"; ref_coord_frame = Date;
+enddef;
+*
+def J1924-2914;
+     source_name = J1924-2914;
+*    this source had calibrator code: V
+*    alternate source name: 1921-293
+*    alternate source name: J1924-29
+*    rfc_2012b Petrov, 2012, unpublished 42837 observations
+     ra = 19h24m51.0559560s; dec = -29d14'30.121160"; ref_coord_frame = J2000;
+*    ra = 19h21m42.2341290s; dec = -29d20'26.354062"; ref_coord_frame = B1950;
+*    ra = 19h25m59.3173190s; dec = -29d12'09.969139"; ref_coord_frame = Date;
+enddef;
+*
+def CYG-A;
+     source_name = CYG-A;
+*    this source had calibrator code: V
+*    alternate source name: J1959+4044
+*    alternate source name: CYGNUS-A
+*    alternate source name: J1959+40
+*    alternate source name: 1957+405
+*    alternate source name: 1957+404
+*    rfc_2012b Petrov, 2012, unpublished 3 observations
+     ra = 19h59m28.3688210s; dec =  40d44'02.047320"; ref_coord_frame = J2000;
+*    ra = 19h57m44.4530939s; dec =  40d35'46.312728"; ref_coord_frame = B1950;
+*    ra = 20h00m06.1396281s; dec =  40d46'49.824163"; ref_coord_frame = Date;
+enddef;
+*
+def J2015+3710;
+     source_name = J2015+3710;
+*    this source had calibrator code: V
+*    alternate source name: 2013+370
+*    rfc_2012b Petrov, 2012, unpublished 282 observations
+     ra = 20h15m28.7297750s; dec =  37d10'59.515310"; ref_coord_frame = J2000;
+*    ra = 20h13m37.0144894s; dec =  37d01'44.459431"; ref_coord_frame = B1950;
+*    ra = 20h16m09.1962175s; dec =  37d14'09.124608"; ref_coord_frame = Date;
+enddef;
+*
+def BLLAC;
+     source_name = BLLAC;
+*    this source had calibrator code: V
+*    alternate source name: J2202+4216
+*    alternate source name: 2200+420
+*    alternate source name: J2202+42
+*    alternate source name: VR422201
+*    rfc_2012b Petrov, 2012, unpublished 59418 observations
+     ra = 22h02m43.2913710s; dec =  42d16'39.979870"; ref_coord_frame = J2000;
+*    ra = 22h00m39.3625043s; dec =  42d02'08.590734"; ref_coord_frame = B1950;
+*    ra = 22h03m27.5810044s; dec =  42d21'41.463693"; ref_coord_frame = Date;
+enddef;
+*
+def J2257-3627;
+     source_name = J2257-3627;
+*    this source had calibrator code: V
+*    alternate source name: 2254-367
+*    GSFC 2011B astro solution        19 Observations
+     ra = 22h57m10.6067730s; dec = -36d27'43.995300"; ref_coord_frame = J2000;
+*    ra = 22h54m23.1085381s; dec = -36d43'47.244996"; ref_coord_frame = B1950;
+*    ra = 22h58m09.5386513s; dec = -36d21'51.035168"; ref_coord_frame = Date;
+enddef;
+*------------------------------------------------------------------------------
+

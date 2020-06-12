@@ -1,0 +1,27 @@
+vex = e20j23-b1.vex.obs
+
+antennas = Pv, Nq
+
+#include <globals.v2d>
+
+#include <zooms.v2d>
+
+#include <setup_production.v2d>
+
+ANTENNA Pv {
+  datastreams = Pv_ds12, Pv_ds34
+  phaseCalInt = 0
+  zoom = zooms
+}
+
+ANTENNA Nq {
+  datastreams = Nq_ds34, Nq_ds12  # pols are reversed at either Pico or Noema
+  phaseCalInt = 0
+  zoom = zooms
+}
+
+DATASTREAM Pv_ds12 { filelist = filelist.Pv.bX.12 }
+DATASTREAM Pv_ds34 { filelist = filelist.Pv.bX.34 }
+DATASTREAM Nq_ds12 { filelist = filelist.Nq.bX.12 }
+DATASTREAM Nq_ds34 { filelist = filelist.Nq.bX.34 }
+

@@ -1,0 +1,45 @@
+$CLOCK;
+*
+def Aa;
+  clock_early = 2020y023d04h00m00s: 2107.147 usec  : 2020y023d04h00m00s : 0.019e-12;
+enddef;
+*
+def Ax;
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*
+def Gl;
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*
+def Lm;
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*
+def Mm; * JCMT
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*
+def Mg; * SMT
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*
+def Pv;
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*
+def Nq; * NOEMA
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*
+def Sw; * SMA APHIDS
+  ** ./vexdelay.py -f SMA_delays.csv.rx230.sbLSB.quad1.band1 -c 0.68031 \
+  **               -r +208.056e-15 -s Sw -g 0.0 \
+  **               2018y110d22h38m00s 2018y117d09h33m00s
+  clock_early=2018y111d03h48m00s : 0.964978 usec : 2018y111d03h48m00s : 2.08056e-13 ;
+enddef;
+*
+def Sz; * SPT
+  clock_early = 2020y023d04h00m00s: 0 usec: 2020y023d04h00m00s : 0;
+enddef;
+*------------------------------------------------------------------------------

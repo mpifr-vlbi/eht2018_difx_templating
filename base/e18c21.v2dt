@@ -1,0 +1,13 @@
+vex = e18c21-0-b1.vex.obs
+
+#include <globals.v2d>
+
+#include <zooms.v2d>
+
+#include <antennas_apex15Hz.v2d>
+#include <antennas.v2d>
+
+#include <datastreams_singleSet.v2d>
+#include <datastreams_multiSet_e18c21.v2d>
+
+#include <setup_production.v2d>

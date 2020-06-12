@@ -1,0 +1,21 @@
+$BBC;
+*
+def COMMON_BBC;
+     BBC_assign = &BBC01 : 1 : &IF_BAND3L;
+     BBC_assign = &BBC02 : 2 : &IF_BAND3R;
+enddef;
+def REVERSE_BBC;
+     BBC_assign = &BBC01 : 1 : &IF_BAND3R;
+     BBC_assign = &BBC02 : 2 : &IF_BAND3L;
+enddef;
+def COMMON_BBC_L;
+     BBC_assign = &BBC01 : 1 : &IF_BAND3L;
+enddef;
+def COMMON_BBC_R;
+     BBC_assign = &BBC02 : 2 : &IF_BAND3R;
+enddef;
+def ALMA_BBC;   * Aa
+     BBC_assign = &BBC05 : 5 : &IF_Q3X;
+     BBC_assign = &BBC06 : 6 : &IF_Q3Y;
+enddef;
+*------------------------------------------------------------------------------
