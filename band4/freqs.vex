@@ -1,0 +1,131 @@
+$FREQ;
+*
+def LMT_BAND4; *  Az Lm Sp
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal;
+enddef;
+*
+def SMT_BAND4;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal;
+enddef;
+*
+def SPT_BAND4;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal;
+enddef;
+*
+def AX_BAND4;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B:228103.000 MHz : U : 2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+     chan_def = &B:228103.000 MHz : U : 2048.00 MHz : &CH02 : &BBC02 : &NoCal;
+enddef;
+*
+def PV_BAND4;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+     chan_def = &B:228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal;
+enddef;
+*
+def GLT_BAND4;
+     sample_rate =  4096.000 Ms/sec;
+     * Nominal EHTC LO band4 is 1st LO 221.100 GHz
+     * GLT used ~222.100 GHz (222.099 999 000 GHz) hence +1 GHz LO off and -1 kHz LO fine off
+     * 222.100 + 8.150 = 230.250
+     * ---------------------------------------------------------------------------
+     * Cannot correlate with 230.249999 GHz LSB since FFT freq grid 15.625 KHz not 1 kHz
+     * Set fake freq here in VEX and pair it with v2d loOffset
+     chan_def = &B:230250.00 MHz : L : 2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+     chan_def = &B:230250.00 MHz : L : 2048.00 MHz : &CH02 : &BBC02 : &NoCal;
+enddef;
+*
+def JCMT_BAND4R;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B: 228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+enddef;
+*
+def JCMT_BAND4L;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B: 228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+enddef;
+*
+def SWARM_BAND4;
+     sample_rate =  4096.000 Ms/sec;
+     chan_def = &B: 228100.000 MHz : U :2048.00 MHz : &CH01 : &BBC01 : &NoCal;
+     chan_def = &B: 228100.000 MHz : U :2048.00 MHz : &CH02 : &BBC02 : &NoCal;
+enddef;
+*
+def ALMA_BAND4;
+     * alma-vex-defs.py -f 229100.0 -s U -ralma
+     sample_rate = 125.000000 Ms/sec;
+* POL X
+      chan_def = &B : 228160.546875 MHz : U : 62.5 MHz : &CH01 : &BBC05 : &NoCal;
+      chan_def = &B : 228219.140625 MHz : U : 62.5 MHz : &CH02 : &BBC05 : &NoCal;
+      chan_def = &B : 228277.734375 MHz : U : 62.5 MHz : &CH03 : &BBC05 : &NoCal;
+      chan_def = &B : 228336.328125 MHz : U : 62.5 MHz : &CH04 : &BBC05 : &NoCal;
+      chan_def = &B : 228394.921875 MHz : U : 62.5 MHz : &CH05 : &BBC05 : &NoCal;
+      chan_def = &B : 228453.515625 MHz : U : 62.5 MHz : &CH06 : &BBC05 : &NoCal;
+      chan_def = &B : 228512.109375 MHz : U : 62.5 MHz : &CH07 : &BBC05 : &NoCal;
+      chan_def = &B : 228570.703125 MHz : U : 62.5 MHz : &CH08 : &BBC05 : &NoCal;
+      chan_def = &B : 228629.296875 MHz : U : 62.5 MHz : &CH09 : &BBC05 : &NoCal;
+      chan_def = &B : 228687.890625 MHz : U : 62.5 MHz : &CH10 : &BBC05 : &NoCal;
+      chan_def = &B : 228746.484375 MHz : U : 62.5 MHz : &CH11 : &BBC05 : &NoCal;
+      chan_def = &B : 228805.078125 MHz : U : 62.5 MHz : &CH12 : &BBC05 : &NoCal;
+      chan_def = &B : 228863.671875 MHz : U : 62.5 MHz : &CH13 : &BBC05 : &NoCal;
+      chan_def = &B : 228922.265625 MHz : U : 62.5 MHz : &CH14 : &BBC05 : &NoCal;
+      chan_def = &B : 228980.859375 MHz : U : 62.5 MHz : &CH15 : &BBC05 : &NoCal;
+      chan_def = &B : 229039.453125 MHz : U : 62.5 MHz : &CH16 : &BBC05 : &NoCal;
+      chan_def = &B : 229098.046875 MHz : U : 62.5 MHz : &CH17 : &BBC05 : &NoCal;
+      chan_def = &B : 229156.640625 MHz : U : 62.5 MHz : &CH18 : &BBC05 : &NoCal;
+      chan_def = &B : 229215.234375 MHz : U : 62.5 MHz : &CH19 : &BBC05 : &NoCal;
+      chan_def = &B : 229273.828125 MHz : U : 62.5 MHz : &CH20 : &BBC05 : &NoCal;
+      chan_def = &B : 229332.421875 MHz : U : 62.5 MHz : &CH21 : &BBC05 : &NoCal;
+      chan_def = &B : 229391.015625 MHz : U : 62.5 MHz : &CH22 : &BBC05 : &NoCal;
+      chan_def = &B : 229449.609375 MHz : U : 62.5 MHz : &CH23 : &BBC05 : &NoCal;
+      chan_def = &B : 229508.203125 MHz : U : 62.5 MHz : &CH24 : &BBC05 : &NoCal;
+      chan_def = &B : 229566.796875 MHz : U : 62.5 MHz : &CH25 : &BBC05 : &NoCal;
+      chan_def = &B : 229625.390625 MHz : U : 62.5 MHz : &CH26 : &BBC05 : &NoCal;
+      chan_def = &B : 229683.984375 MHz : U : 62.5 MHz : &CH27 : &BBC05 : &NoCal;
+      chan_def = &B : 229742.578125 MHz : U : 62.5 MHz : &CH28 : &BBC05 : &NoCal;
+      chan_def = &B : 229801.171875 MHz : U : 62.5 MHz : &CH29 : &BBC05 : &NoCal;
+      chan_def = &B : 229859.765625 MHz : U : 62.5 MHz : &CH30 : &BBC05 : &NoCal;
+      chan_def = &B : 229918.359375 MHz : U : 62.5 MHz : &CH31 : &BBC05 : &NoCal;
+      chan_def = &B : 229976.953125 MHz : U : 62.5 MHz : &CH32 : &BBC05 : &NoCal;
+* POL Y
+      chan_def = &B : 228160.546875 MHz : U : 62.5 MHz : &CH33 : &BBC06 : &NoCal;
+      chan_def = &B : 228219.140625 MHz : U : 62.5 MHz : &CH34 : &BBC06 : &NoCal;
+      chan_def = &B : 228277.734375 MHz : U : 62.5 MHz : &CH35 : &BBC06 : &NoCal;
+      chan_def = &B : 228336.328125 MHz : U : 62.5 MHz : &CH36 : &BBC06 : &NoCal;
+      chan_def = &B : 228394.921875 MHz : U : 62.5 MHz : &CH37 : &BBC06 : &NoCal;
+      chan_def = &B : 228453.515625 MHz : U : 62.5 MHz : &CH38 : &BBC06 : &NoCal;
+      chan_def = &B : 228512.109375 MHz : U : 62.5 MHz : &CH39 : &BBC06 : &NoCal;
+      chan_def = &B : 228570.703125 MHz : U : 62.5 MHz : &CH40 : &BBC06 : &NoCal;
+      chan_def = &B : 228629.296875 MHz : U : 62.5 MHz : &CH41 : &BBC06 : &NoCal;
+      chan_def = &B : 228687.890625 MHz : U : 62.5 MHz : &CH42 : &BBC06 : &NoCal;
+      chan_def = &B : 228746.484375 MHz : U : 62.5 MHz : &CH43 : &BBC06 : &NoCal;
+      chan_def = &B : 228805.078125 MHz : U : 62.5 MHz : &CH44 : &BBC06 : &NoCal;
+      chan_def = &B : 228863.671875 MHz : U : 62.5 MHz : &CH45 : &BBC06 : &NoCal;
+      chan_def = &B : 228922.265625 MHz : U : 62.5 MHz : &CH46 : &BBC06 : &NoCal;
+      chan_def = &B : 228980.859375 MHz : U : 62.5 MHz : &CH47 : &BBC06 : &NoCal;
+      chan_def = &B : 229039.453125 MHz : U : 62.5 MHz : &CH48 : &BBC06 : &NoCal;
+      chan_def = &B : 229098.046875 MHz : U : 62.5 MHz : &CH49 : &BBC06 : &NoCal;
+      chan_def = &B : 229156.640625 MHz : U : 62.5 MHz : &CH50 : &BBC06 : &NoCal;
+      chan_def = &B : 229215.234375 MHz : U : 62.5 MHz : &CH51 : &BBC06 : &NoCal;
+      chan_def = &B : 229273.828125 MHz : U : 62.5 MHz : &CH52 : &BBC06 : &NoCal;
+      chan_def = &B : 229332.421875 MHz : U : 62.5 MHz : &CH53 : &BBC06 : &NoCal;
+      chan_def = &B : 229391.015625 MHz : U : 62.5 MHz : &CH54 : &BBC06 : &NoCal;
+      chan_def = &B : 229449.609375 MHz : U : 62.5 MHz : &CH55 : &BBC06 : &NoCal;
+      chan_def = &B : 229508.203125 MHz : U : 62.5 MHz : &CH56 : &BBC06 : &NoCal;
+      chan_def = &B : 229566.796875 MHz : U : 62.5 MHz : &CH57 : &BBC06 : &NoCal;
+      chan_def = &B : 229625.390625 MHz : U : 62.5 MHz : &CH58 : &BBC06 : &NoCal;
+      chan_def = &B : 229683.984375 MHz : U : 62.5 MHz : &CH59 : &BBC06 : &NoCal;
+      chan_def = &B : 229742.578125 MHz : U : 62.5 MHz : &CH60 : &BBC06 : &NoCal;
+      chan_def = &B : 229801.171875 MHz : U : 62.5 MHz : &CH61 : &BBC06 : &NoCal;
+      chan_def = &B : 229859.765625 MHz : U : 62.5 MHz : &CH62 : &BBC06 : &NoCal;
+      chan_def = &B : 229918.359375 MHz : U : 62.5 MHz : &CH63 : &BBC06 : &NoCal;
+      chan_def = &B : 229976.953125 MHz : U : 62.5 MHz : &CH64 : &BBC06 : &NoCal;
+enddef;
+*------------------------------------------------------------------------------

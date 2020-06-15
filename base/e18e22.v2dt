@@ -1,0 +1,15 @@
+vex = e18e22-0-b1.vex.obs
+
+# Note: Pico did not observe e18e22
+
+#include <globals.v2d>
+
+#include <zooms.v2d>
+
+#include <antennas_apex15Hz.v2d>
+#include <antennas.v2d>
+
+#include <datastreams_singleSet.v2d>
+#include <datastreams_multiSet_e18e22.v2d>
+
+#include <setup_production.v2d>

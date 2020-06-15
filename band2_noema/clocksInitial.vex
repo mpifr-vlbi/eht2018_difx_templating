@@ -1,0 +1,77 @@
+$CLOCK;
+*
+def Aa;
+  clock_early = 2018y110d22h00m00s: 2107.147 usec  : 2018y110d22h00m00s : 0.019e-12;
+enddef;
+*
+def Ax;
+  clock_early = 2018y110d22h00m00s: 0 usec: 2018y110d22h00m00s : 0;
+enddef;
+*
+def Gl;
+  clock_early = 2018y110d22h00m00s: 0 usec: 2018y110d22h00m00s : 0;
+enddef;
+*
+def Lm;
+  clock_early = 2018y110d22h00m00s: 0 usec: 2018y110d22h00m00s : 0;
+enddef;
+*
+def Mm; * JCMT
+  clock_early = 2018y110d22h00m00s: 0 usec: 2018y110d22h00m00s : 0;
+enddef;
+*
+def Mg; * SMT
+  clock_early = 2018y110d22h00m00s: 0 usec: 2018y110d22h00m00s : 0;
+enddef;
+*
+def Pv;
+  clock_early = 2018y110d22h00m00s: 0 usec: 2018y110d22h00m00s : 0;
+enddef;
+**
+def Sw; * SMA APHIDS
+  ** ./vexdelay.py -f SMA_delays.csv.rx230.???? done by Mike T.
+  clock_early=2018y111d03h48m00s : 0.973709 usec : 2018y111d03h48m00s : 2.08e-13 ;
+  clock_early=2018y111d04h12m00s : 0.974686 usec : 2018y111d04h12m00s : 2.08e-13 ;
+  clock_early=2018y111d04h20m00s : 0.971756 usec : 2018y111d04h20m00s : 2.08e-13 ;
+  clock_early=2018y111d04h40m00s : 0.972733 usec : 2018y111d04h40m00s : 2.08e-13 ;
+  clock_early=2018y111d04h48m00s : 0.972733 usec : 2018y111d04h48m00s : 2.08e-13 ;
+  clock_early=2018y111d04h59m00s : 0.974686 usec : 2018y111d04h59m00s : 2.08e-13 ;
+  clock_early=2018y111d05h12m00s : 0.973465 usec : 2018y111d05h12m00s : 2.08e-13 ;
+  clock_early=2018y111d05h20m00s : 0.973709 usec : 2018y111d05h20m00s : 2.08e-13 ;
+  clock_early=2018y111d05h30m00s : 0.972244 usec : 2018y111d05h30m00s : 2.08e-13 ;
+  clock_early=2018y111d05h40m00s : 0.963455 usec : 2018y111d05h40m00s : 2.08e-13 ;
+  clock_early=2018y111d05h48m00s : 0.961014 usec : 2018y111d05h48m00s : 2.08e-13 ;
+  clock_early=2018y111d05h59m00s : 0.961014 usec : 2018y111d05h59m00s : 2.08e-13 ;
+  clock_early=2018y111d06h12m00s : 0.961990 usec : 2018y111d06h12m00s : 2.08e-13 ;
+  clock_early=2018y111d06h20m00s : 0.961746 usec : 2018y111d06h20m00s : 2.08e-13 ;
+  clock_early=2018y111d06h30m00s : 0.963944 usec : 2018y111d06h30m00s : 2.08e-13 ;
+  clock_early=2018y111d06h40m00s : 0.962967 usec : 2018y111d06h40m00s : 2.08e-13 ;
+  clock_early=2018y111d06h48m00s : 0.962723 usec : 2018y111d06h48m00s : 2.08e-13 ;
+  clock_early=2018y111d06h59m00s : 0.960770 usec : 2018y111d06h59m00s : 2.08e-13 ;
+  clock_early=2018y111d09h39m00s : 0.963944 usec : 2018y111d09h39m00s : 2.08e-13 ;
+  clock_early=2018y111d10h27m00s : 0.961990 usec : 2018y111d10h27m00s : 2.08e-13 ;
+  clock_early=2018y111d10h36m00s : 0.962723 usec : 2018y111d10h36m00s : 2.08e-13 ;
+  clock_early=2018y111d10h48m00s : 0.961990 usec : 2018y111d10h48m00s : 2.08e-13 ;
+  clock_early=2018y111d10h59m00s : 0.963944 usec : 2018y111d10h59m00s : 2.08e-13 ;
+  clock_early=2018y111d11h12m00s : 0.963211 usec : 2018y111d11h12m00s : 2.08e-13 ;
+  clock_early=2018y111d11h23m00s : 0.961258 usec : 2018y111d11h23m00s : 2.08e-13 ;
+  clock_early=2018y111d11h36m00s : 0.964188 usec : 2018y111d11h36m00s : 2.08e-13 ;
+  clock_early=2018y111d11h45m00s : 0.963455 usec : 2018y111d11h45m00s : 2.08e-13 ;
+  clock_early=2018y111d11h55m00s : 0.961990 usec : 2018y111d11h55m00s : 2.08e-13 ;
+  clock_early=2018y111d12h08m00s : 0.962479 usec : 2018y111d12h08m00s : 2.08e-13 ;
+  clock_early=2018y111d12h22m00s : 0.961258 usec : 2018y111d12h22m00s : 2.08e-13 ;
+  clock_early=2018y111d12h35m00s : 0.964432 usec : 2018y111d12h35m00s : 2.08e-13 ;
+  clock_early=2018y111d12h50m00s : 0.962235 usec : 2018y111d12h50m00s : 2.08e-13 ;
+  clock_early=2018y111d12h59m00s : 0.961258 usec : 2018y111d12h59m00s : 2.08e-13 ;
+  clock_early=2018y111d13h12m00s : 0.961990 usec : 2018y111d13h12m00s : 2.08e-13 ;
+  clock_early=2018y111d13h21m00s : 0.961258 usec : 2018y111d13h21m00s : 2.08e-13 ;
+  clock_early=2018y111d13h38m00s : 0.963699 usec : 2018y111d13h38m00s : 2.08e-13 ;
+  clock_early=2018y111d13h51m00s : 0.960770 usec : 2018y111d13h51m00s : 2.08e-13 ;
+  clock_early=2018y111d14h04m00s : 0.963455 usec : 2018y111d14h04m00s : 2.08e-13 ;
+  clock_early=2018y111d14h14m00s : 0.962235 usec : 2018y111d14h14m00s : 2.08e-13 ;
+enddef;
+*
+def Sz; * SPT
+  clock_early = 2018y110d22h00m00s: 0 usec: 2018y110d22h00m00s : 0;
+enddef;
+*------------------------------------------------------------------------------

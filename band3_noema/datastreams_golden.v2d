@@ -1,0 +1,51 @@
+DATASTREAM Ax_ds12 {
+  filelist = golden_Ax_b3.12.flist
+}
+DATASTREAM Ax_ds34 {
+  filelist = golden_Ax_b3.34.flist
+}
+DATASTREAM Pv_ds12 { 
+  filelist = golden_Pv_b3.12.flist
+}
+DATASTREAM Pv_ds34 {
+  filelist = golden_Pv_b3.34.flist
+}
+DATASTREAM Glt_ds12 {
+  filelist = golden_Gl_b3.12.flist
+}
+DATASTREAM Glt_ds34 {
+  filelist = golden_Gl_b3.34.flist
+}
+DATASTREAM Lmt_ds12 {
+  filelist = golden_Lm_b3.12.flist
+}
+DATASTREAM Lmt_ds34 {
+  filelist = golden_Lm_b3.34.flist
+}
+DATASTREAM Jcmt_ds12 {   
+  filelist = golden_Mm_b23.flist
+}
+DATASTREAM SmaAphids_ds12 {
+  filelist = golden_Sw_b3.12.flist
+}
+DATASTREAM SmaAphids_ds34 {
+  filelist = golden_Sw_b3.34.flist
+}
+DATASTREAM Smt_ds12 {
+  filelist = golden_Mg_b3.12.flist
+}
+DATASTREAM Smt_ds34 {
+  filelist = golden_Mg_b3.34.flist
+}
+DATASTREAM Aa_ds12 {
+  filelist = golden_Aa_b3.12.flist
+}
+DATASTREAM Aa_ds34 {
+  filelist = golden_Aa_b3.34.flist
+}
+DATASTREAM Spt_ds12 {
+  filelist = golden_Sz_b3.12.flist
+}
+DATASTREAM Spt_ds34 {
+  filelist = golden_Sz_b3.34.flist
+}

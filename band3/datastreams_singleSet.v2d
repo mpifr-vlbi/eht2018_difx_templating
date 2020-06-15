@@ -1,0 +1,41 @@
+DATASTREAM Ax_ds12 {
+  filelist = mod-12-Ax.b3.flist
+}
+DATASTREAM Ax_ds34 {
+  filelist = mod-34-Ax.b3.flist
+}
+DATASTREAM Pv_ds12 {
+  filelist = mod-12-Pv.b3.flist
+}
+DATASTREAM Pv_ds34 {
+  filelist = mod-34-Pv.b3.flist
+}
+DATASTREAM Glt_ds12 {
+  filelist = mod-12-Gl.b3.flist
+}
+DATASTREAM Glt_ds34 {
+  filelist = mod-34-Gl.b3.flist
+}
+DATASTREAM Lmt_ds12 {
+  filelist = mod-12-Lm.b3.flist
+}
+DATASTREAM Lmt_ds34 {
+  filelist = mod-34-Lm.b3.flist
+}
+DATASTREAM Jcmt_ds12 {
+  # MM module says "b2 & b3 DSB"
+  # IF signal has band 2 folded on top of band 3
+  filelist = mod-34-Mm.b23.flist
+}
+DATASTREAM SmaAphids_ds12 {
+  filelist = mod-12-Sw.b3.flist
+}
+DATASTREAM SmaAphids_ds34 {
+  filelist = mod-34-Sw.b3.flist
+}
+DATASTREAM Smt_ds12 {
+  filelist = mod-12-Mg.b3.flist
+}
+DATASTREAM Smt_ds34 {
+  filelist = mod-34-Mg.b3.flist
+}

@@ -1,0 +1,13 @@
+DATASTREAM Aa_ds12 {
+  filelist = ehtc2018_ALMA_set1_band4.12.filelist
+}
+DATASTREAM Aa_ds34 {
+  filelist = ehtc2018_ALMA_set1_band4.34.filelist
+}
+DATASTREAM Spt_ds12 {
+  filelist = ehtc2018_SPT_set1_band4.12.filelist
+}
+DATASTREAM Spt_ds34 {
+  filelist = ehtc2018_SPT_set1_band4.34.filelist
+}
+

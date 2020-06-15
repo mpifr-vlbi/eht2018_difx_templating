@@ -1,0 +1,182 @@
+$SOURCE;
+*
+def SGRA;
+     source_name = SGRA;
+    * new position from Vincent (for 2018), ??th April 2019
+     ra = 17h45m40.0356000s; dec = -29d00'28.240000"; ref_coord_frame = J2000;
+enddef;
+*
+def 3C279;
+     source_name = 3C279;
+     ra = 12h56m11.1665670s; dec = -05d47'21.524810"; ref_coord_frame = J2000;
+enddef;
+*
+def NRAO530;
+     source_name = NRAO530;
+*    rfc_2012b Petrov, 2012, unpublished 17851 observations
+     ra = 17h33m02.7057870s; dec = -13d04'49.548400"; ref_coord_frame = J2000;
+enddef;
+*
+def J1800+7828;
+     source_name = J1800+7828;
+*    rfc_2012b Petrov, 2012, unpublished 200776 observations
+     ra = 18h00m45.6839030s; dec =  78d28'04.018380"; ref_coord_frame = J2000;
+enddef;
+*
+def J1924-2914;
+     source_name = J1924-2914;
+*    rfc_2012b Petrov, 2012, unpublished 42837 observations
+     ra = 19h24m51.0559560s; dec = -29d14'30.121160"; ref_coord_frame = J2000;
+enddef;
+*
+def CYG-A;
+     source_name = CYG-A;
+*    rfc_2012b Petrov, 2012, unpublished 3 observations
+     ra = 19h59m28.3688210s; dec =  40d44'02.047320"; ref_coord_frame = J2000;
+enddef;
+*
+def J2015+3710;
+     source_name = J2015+3710;
+*    rfc_2012b Petrov, 2012, unpublished 282 observations
+     ra = 20h15m28.7297750s; dec =  37d10'59.515310"; ref_coord_frame = J2000;
+enddef;
+*
+def BLLAC;
+     source_name = BLLAC;
+*    rfc_2012b Petrov, 2012, unpublished 59418 observations
+     ra = 22h02m43.2913710s; dec =  42d16'39.979870"; ref_coord_frame = J2000;
+enddef;
+*
+def J2257-3627;
+     source_name = J2257-3627;
+*    GSFC 2011B astro solution        19 Observations
+     ra = 22h57m10.6067730s; dec = -36d27'43.995300"; ref_coord_frame = J2000;
+enddef;
+*
+def OJ287;
+     source_name = OJ287;
+*    rfc_2012b Petrov, 2012, unpublished 191510 observations
+     ra = 08h54m48.8749300s; dec =  20d06'30.640780"; ref_coord_frame = J2000;
+enddef;
+*
+def M87;
+     source_name = M87;
+*    rfc_2012b Petrov, 2012, unpublished 47163 observations
+     ra = 12h30m49.4233820s; dec =  12d23'28.043660"; ref_coord_frame = J2000;
+enddef;
+*
+def CENA;
+     source_name = CENA;
+*    this source had calibrator code:  
+     ra = 13h25m27.6150920s; dec = -43d01'08.805590"; ref_coord_frame = J2000;
+enddef;
+*
+def J1336-3357;
+     source_name = J1336-3357;
+*    GSFC 2011B astro solution        37 Observations
+     ra = 13h36m39.0327040s; dec = -33d57'57.076640"; ref_coord_frame = J2000;
+enddef;
+*
+def J1337-1257;
+     source_name = J1337-1257;
+*    rfc_2012b Petrov, 2012, unpublished 89827 observations
+     ra = 13h37m39.7827770s; dec = -12d57'24.693450"; ref_coord_frame = J2000;
+enddef;
+*
+def J0739+0137;
+     source_name = J0739+0137;
+*    rfc_2012b Petrov, 2012, unpublished 2350 observations
+     ra = 07h39m18.0338970s; dec =  01d37'04.617730"; ref_coord_frame = J2000;
+enddef;
+*
+def J0831+0429;
+     source_name = J0831+0429;
+*    rfc_2012b Petrov, 2012, unpublished 1604 observations
+     ra = 08h31m48.8769580s; dec =  04d29'39.085790"; ref_coord_frame = J2000;
+enddef;
+*
+*------------------------------------------------------------------------------
+def MRK501;
+     source_name = MRK501;
+*    this source had calibrator code:  
+     ra = 16h53m52.2167000s; dec =  39d45'36.609000"; ref_coord_frame = J2000;
+enddef;
+*
+def J1820+0711;
+     source_name = J1820+0711;
+*    this source had calibrator code:  
+     ra = 18h20m21.9400000s; dec =  07d11'07.240000"; ref_coord_frame = J2000;
+enddef;
+*
+def J0725-0054;
+     source_name = J0725-0054;
+*    rfc_2012b Petrov, 2012, unpublished 1465 observations
+     ra = 07h25m50.6399560s; dec = -00d54'56.544320"; ref_coord_frame = J2000;
+enddef;
+*
+def 1055+018;
+     source_name = 1055+018;
+*    rfc_2012b Petrov, 2012, unpublished 7989 observations
+     ra = 10h58m29.6052070s; dec =  01d33'58.823590"; ref_coord_frame = J2000;
+enddef;
+*
+def J1146+3958;
+     source_name = J1146+3958;
+*    rfc_2012b Petrov, 2012, unpublished 13912 observations
+     ra = 11h46m58.2979190s; dec =  39d58'34.304310"; ref_coord_frame = J2000;
+enddef;
+*
+def J1159+2914;
+     source_name = J1159+2914;
+*    rfc_2012b Petrov, 2012, unpublished 64535 observations
+     ra = 11h59m31.8339120s; dec =  29d14'43.826780"; ref_coord_frame = J2000;
+enddef;
+*
+def J1224+2122;
+     source_name = J1224+2122;
+*    rfc_2012b Petrov, 2012, unpublished 406 observations
+     ra = 12h24m54.4583940s; dec =  21d22'46.388560"; ref_coord_frame = J2000;
+enddef;
+*
+def J1225+1253;
+     source_name = J1225+1253;
+*    rfc_2012b Petrov, 2012, unpublished 924 observations
+     ra = 12h25m03.7433280s; dec =  12d53'13.139020"; ref_coord_frame = J2000;
+enddef;
+*
+def J1230+2518;
+     source_name = J1230+2518;
+*    rfc_2012b Petrov, 2012, unpublished 109 observations
+     ra = 12h30m14.0893580s; dec =  25d18'07.135880"; ref_coord_frame = J2000;
+enddef;
+*
+def J1504+1029;
+     source_name = J1504+1029;
+*    rfc_2012b Petrov, 2012, unpublished 15255 observations
+     ra = 15h04m24.9797820s; dec =  10d29'39.198400"; ref_coord_frame = J2000;
+enddef;
+*
+def J1512-0905;
+     source_name = J1512-0905;
+*    rfc_2012b Petrov, 2012, unpublished 6238 observations
+     ra = 15h12m50.5329260s; dec = -09d05'59.829810"; ref_coord_frame = J2000;
+enddef;
+*
+def J1517-2422;
+     source_name = J1517-2422;
+*    rfc_2012b Petrov, 2012, unpublished 7724 observations
+     ra = 15h17m41.8131310s; dec = -24d22'19.476160"; ref_coord_frame = J2000;
+enddef;
+*
+def J1549+0237;
+     source_name = J1549+0237;
+*    rfc_2012b Petrov, 2012, unpublished 10363 observations
+     ra = 15h49m29.4368450s; dec =  02d37'01.163080"; ref_coord_frame = J2000;
+enddef;
+*
+def J1751+0939;
+     source_name = J1751+0939;
+*    rfc_2012b Petrov, 2012, unpublished 133560 observations
+     ra = 17h51m32.8185720s; dec =  09d39'00.728290"; ref_coord_frame = J2000;
+enddef;
+*------------------------------------------------------------------------------

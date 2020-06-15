@@ -1,0 +1,47 @@
+VEX_rev = 1.5;
+*    SCHED vers: Development version 11.5. Started Apr. 2
+*    VEX/SCHED:  1.5.87
+*    Other versions: Sched:  11.5  Plot: 1.06  JPL-ephem: 1.01
+*------------------------------------------------------------------------------
+$GLOBAL;
+     ref $EXPER = e18d28;
+*                                                      +------------+
+*                         PI revision number:          |   12.0000  |
+*                                                      +------------+
+*    mode:       R2DBE
+*------------------------------------------------------------------------------
+$EXPER;
+*
+def e18d28;
+     exper_name = e18d28;
+     exper_num = 3649;
+     exper_description = "ALMA+EHT VLBI April 2018";
+     PI_name = EHTC;
+     PI_email = not@an.address;
+*    address:   The Event Horizon Telescope Collaboration
+*               Global
+*
+*    year, doy: 2018, 117
+*    date     : Fri 27 Apr 2018
+*    MJD      : 58235
+     exper_nominal_start=2018y117d21h57m00s;
+     exper_nominal_stop=2018y118d09h39m00s;
+*
+     target_correlator = BONN;
+*
+enddef;
+*------------------------------------------------------------------------------
+** include <clocksInitial.vex>
+** include <mode_proc_das.vex>
+** include <stations.vex>
+** include <freqs.vex>
+** include <bbc.vex>
+** include <if.vex>
+** include <phasecal.vex>
+** include <tracks.vex>
+*------------------------------------------------------------------------------
+** include <sources_e18d28.vex>
+** include <sched_e18d28.vex>
+** include <eop_e18d28.vex>
+** loaddata <clocks_e18d28.dat>
+*------------------------------------------------------------------------------

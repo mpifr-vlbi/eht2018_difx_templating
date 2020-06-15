@@ -1,0 +1,13 @@
+DATASTREAM Aa_ds12 {
+  filelist = mod-12-Aa.b3.flist
+}
+DATASTREAM Aa_ds34 {
+  filelist = mod-34-Aa.b3.flist
+}
+DATASTREAM Spt_ds12 {
+  filelist = mod-12-Sz.b3.flist
+}
+DATASTREAM Spt_ds34 {
+  filelist = mod-34-Sz.b3.flist
+}
+

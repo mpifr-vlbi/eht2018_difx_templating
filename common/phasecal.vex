@@ -1,0 +1,7 @@
+$PHASE_CAL_DETECT;
+*
+def NoDetect;
+* mode =  1    stations =Ax:Pv:Gl:Aa:Sz:Lm:Mg:Mm:Sw
+     phase_cal_detect = &NoCal;
+enddef;
+*------------------------------------------------------------------------------

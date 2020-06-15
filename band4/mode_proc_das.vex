@@ -1,0 +1,65 @@
+$MODE;
+*
+def mode1mm;  * EHTC Band 4
+     ref $PROCEDURES = Proc_01;
+     ref $FREQ = LMT_BAND4:Lm;
+     ref $FREQ = SPT_BAND4:Sz;
+     ref $FREQ = SMT_BAND4:Mg;
+     ref $FREQ = GLT_BAND4:Gl;
+     ref $FREQ = ALMA_BAND4:Aa;
+     ref $FREQ = AX_BAND4:Ax;
+     ref $FREQ = PV_BAND4:Pv;
+     ref $FREQ = JCMT_BAND4R:Mm;
+     ref $FREQ = SWARM_BAND4:Sw;
+     ref $IF = LMT_BAND4_IF:Lm:Sz:Mg;
+     ref $IF = AX_BAND4_IF:Ax;
+     ref $IF = PV_BAND4_IF:Pv;
+     ref $IF = ALMA_BAND4_IF:Aa;
+     ref $IF = SMA_BAND4_IF:Sw;
+     ref $IF = JCMT_BAND4_IFR:Mm;
+     ref $IF = GLT_BAND4_IF:Gl;
+     ref $BBC = ALMA_BBC:Aa;
+     ref $BBC = COMMON_BBC:Pv:Ax:Sz:Sw:Mg;
+     ref $BBC = REVERSE_BBC:Lm:Gl;  ** rev1 F008
+     ref $BBC = COMMON_BBC_1POL_R:Mm;
+     ref $TRACKS = VDIF.8224:Ax:Lm:Pv:Mm:Sw:Sz:Gl:Mg;
+     ref $TRACKS = VDIF.8032:Aa;
+     ref $PHASE_CAL_DETECT = NoDetect:Aa:Ax:Lm:Pv:Mm:Sw:Sz:Mg;
+enddef;
+*------------------------------------------------------------------------------
+$PROCEDURES;
+*
+def Mode_01;
+     procedure_name_prefix =  "01";
+     tape_change =  420 sec;
+     headstack_motion =    6 sec;
+     new_source_command =    5 sec;
+     new_tape_setup =   20 sec;
+     setup_always = on :  20 sec;
+     parity_check = off : 100 sec;
+     tape_prepass = off : 600 sec;
+     preob_cal  = on :  10 sec : preob;
+     midob_cal  = on :  15 sec : midob;
+     postob_cal = on :   0 sec : postob;
+enddef;
+*------------------------------------------------------------------------------
+$DAS;
+*
+def 2NONE<;
+     record_transport_type = Mark6;
+     electronics_rack_type = none;
+     number_drives = 2;
+     headstack = 1 :            : 0 ;
+     headstack = 2 :            : 1 ;
+     tape_motion = adaptive : 0 min: 0 min: 10 sec;
+enddef;
+*
+def 2NONE<#02;
+     record_transport_type = Mark5C;
+     electronics_rack_type = none;
+     number_drives = 2;
+     headstack = 1 :            : 0 ;
+     headstack = 2 :            : 1 ;
+     tape_motion = adaptive : 0 min: 0 min: 10 sec;
+enddef;
+*------------------------------------------------------------------------------

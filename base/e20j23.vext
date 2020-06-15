@@ -1,0 +1,63 @@
+VEX_rev = 1.5;
+*    SCHED vers: Development version 11.5. Started Apr. 2
+*    VEX/SCHED:  1.5.87
+*    Other versions: Sched:  11.5  Plot: 1.06  JPL-ephem: 1.01
+*------------------------------------------------------------------------------
+$GLOBAL;
+     ref $EXPER = e20j23;
+*                                                      +------------+
+*                         PI revision number:          |    2.0000  |
+*                                                      +------------+
+*    mode:       R2DBE
+*------------------------------------------------------------------------------
+$EXPER;
+*
+def e20j23;
+     exper_name = e20j23;
+     exper_description = "ALMA+EHT VLBI January 2020";
+     PI_name = EHTC;
+     PI_email = not@an.address;
+*    address:   The Event Horizon Telescope Collaboration
+*               Global
+*
+*
+*    phone:     TBD
+*    during obs:TBD
+*    fax:
+*
+*    year, doy: 2020,  23
+*    date     : Thu 23 Jan 2020
+*    MJD      : 58871
+     exper_nominal_start=2020y023d04h37m00s;
+     exper_nominal_stop=2020y023d06h31m00s;
+*
+     target_correlator = HAYSTACK;
+*
+*    integr_time    :     1.000 s
+*    number_channels:    64
+*    number_antenna :  8
+*    cross_polarize : Yes
+*    weight_func    : UNIFORM
+*    distrib_medium : FTP
+*    distrib_format : FITS
+*    source_pos_cat : STANDARD
+*    distribute_to  :
+*                     TBD
+*
+enddef;
+*------------------------------------------------------------------------------
+** include <clocksInitial_e20j.vex>
+*------------------------------------------------------------------------------
+** include <mode_proc_das.vex>
+** include <stations.vex>
+** include <freqs.vex>
+** include <bbc.vex>
+** include <if.vex>
+** include <phasecal.vex>
+** include <tracks.vex>
+*------------------------------------------------------------------------------
+** include <sources_e20j23.vex>
+** include <sched_e20j23.vex>
+** include <eop_e20j23.vex>
+** loaddata <clocks_e20j23.dat>
+*------------------------------------------------------------------------------

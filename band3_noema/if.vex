@@ -1,0 +1,25 @@
+$IF;
+*
+def STD_IF;
+     if_def = &IF_BAND3L : A : L : 228100.000000 MHz : L : 0 MHz : 0 Hz;
+     if_def = &IF_BAND3R : B : R : 228100.000000 MHz : L : 0 MHz : 0 Hz;
+enddef;
+def GLT_IF;
+     if_def = &IF_BAND3L : A : L : 225949.999000 MHz : U : 0 MHz : 0 Hz;
+     if_def = &IF_BAND3R : B : R : 225949.999000 MHz : U : 0 MHz : 0 Hz;
+enddef;
+def NOEMA_IF; * Nq
+     if_def = &IF_BAND3L : A : L : 221100.000000 MHz : U : 0 MHz : 0 Hz;
+     if_def = &IF_BAND3R : B : R : 221100.000000 MHz : U : 0 MHz : 0 Hz;
+enddef;
+def JCMT_IFR;
+     if_def = &IF_BAND3R : A : R : 228250.000000 MHz : L : 0 MHz : 0 Hz;
+enddef;
+def JCMT_IFL;
+     if_def = &IF_BAND3L : A : L : 228250.000000 MHz : L : 0 MHz : 0 Hz;
+enddef;
+def ALMA_IF; * Aa
+     if_def = &IF_Q3X : E : X : 226160.546875 MHz : U : 0 MHz : 0 Hz;
+     if_def = &IF_Q3Y : F : Y : 226160.546875 MHz : U : 0 MHz : 0 Hz;
+enddef;
+*------------------------------------------------------------------------------

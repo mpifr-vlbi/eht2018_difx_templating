@@ -1,0 +1,3 @@
+
+Based on Haystacks uploaded band3 vex files
+  https://eht-wiki.haystack.mit.edu/Event_Horizon_Telescope_Home/Observing/2018_April/Correlation/2018April-Rev0
