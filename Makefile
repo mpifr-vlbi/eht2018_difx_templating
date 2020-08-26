@@ -2,25 +2,29 @@ include Makefile.inc
 
 .NOTPARALLEL:
 
-all:
+default:
 
-run:	
-	# test run
-	./tvex2vex.py -v -I./band1/ -I./common/ base/e18c21.vext out/e18c21-$(REL)-b1.vex.obs
-
-## Full sets
+####################################################################################
+## Build and install full correlation v2d vex config sets
+####################################################################################
 
 b1: c21b1 e22b1 a24b1 c25b1 g27b1 d28b1
-#b1: c21b1 e22b1 a24b1 c25b1 g27b1 d28b1 install_b1
 
 b2: c21b2 e22b2 a24b2 c25b2 g27b2 d28b2
 
 b3: c21b3 e22b3 a24b3 c25b3 g27b3 d28b3
 
 b4: c21b4 e22b4 a24b4 c25b4 g27b4 d28b4
-#b4: c21b4 e22b4 a24b4 c25b4 g27b4 d28b4 install_b4
 
-## File lists
+all: b1 b2 b3 b4
+
+install: install_b1 install_b4
+
+diff: diff_b1 diff_b4
+
+####################################################################################
+## Install file lists (see Makefile.inc for correlator $(SITE)
+####################################################################################
 
 filelists_b1:
 	make -j1 -C filelists_$(SITE) fdistB1
@@ -118,6 +122,20 @@ install_b1:
 	cp -a out/e18g27-$(REL)-b1.v* /Exps/e18g27/band1/$(REV)/
 	cp -a out/e18d28-$(REL)-b1.v* /Exps/e18d28/band1/$(REV)/
 
+diff_b1:
+	diff out/e18c21-$(REL)-b1.vex.obs /Exps/e18c21/band1/$(REV)/e18c21-$(REL)-b1.vex.obs
+	diff out/e18e22-$(REL)-b1.vex.obs /Exps/e18e22/band1/$(REV)/e18e22-$(REL)-b1.vex.obs
+	diff out/e18a24-$(REL)-b1.vex.obs /Exps/e18a24/band1/$(REV)/e18a24-$(REL)-b1.vex.obs
+	diff out/e18c25-$(REL)-b1.vex.obs /Exps/e18c25/band1/$(REV)/e18c25-$(REL)-b1.vex.obs
+	diff out/e18g27-$(REL)-b1.vex.obs /Exps/e18g27/band1/$(REV)/e18g27-$(REL)-b1.vex.obs
+	diff out/e18d28-$(REL)-b1.vex.obs /Exps/e18d28/band1/$(REV)/e18d28-$(REL)-b1.vex.obs
+	diff out/e18c21-$(REL)-b1.v2d /Exps/e18c21/band1/$(REV)/e18c21-$(REL)-b1.v2d
+	diff out/e18e22-$(REL)-b1.v2d /Exps/e18e22/band1/$(REV)/e18e22-$(REL)-b1.v2d
+	diff out/e18a24-$(REL)-b1.v2d /Exps/e18a24/band1/$(REV)/e18a24-$(REL)-b1.v2d
+	diff out/e18c25-$(REL)-b1.v2d /Exps/e18c25/band1/$(REV)/e18c25-$(REL)-b1.v2d
+	diff out/e18g27-$(REL)-b1.v2d /Exps/e18g27/band1/$(REV)/e18g27-$(REL)-b1.v2d
+	diff out/e18d28-$(REL)-b1.v2d /Exps/e18d28/band1/$(REV)/e18d28-$(REL)-b1.v2d
+
 ####################################################################################
 ## EHT 2018 -- Band 4
 ####################################################################################
@@ -178,6 +196,19 @@ install_b4:
 	cp -a out/e18g27-$(REL)-b4.v* /Exps/e18g27/band4/$(REV)/
 	cp -a out/e18d28-$(REL)-b4.v* /Exps/e18d28/band4/$(REV)/
 
+diff_b4:
+	diff out/e18c21-$(REL)-b4.vex.obs /Exps/e18c21/band4/$(REV)/e18c21-$(REL)-b4.vex.obs
+	diff out/e18e22-$(REL)-b4.vex.obs /Exps/e18e22/band4/$(REV)/e18e22-$(REL)-b4.vex.obs
+	diff out/e18a24-$(REL)-b4.vex.obs /Exps/e18a24/band4/$(REV)/e18a24-$(REL)-b4.vex.obs
+	diff out/e18c25-$(REL)-b4.vex.obs /Exps/e18c25/band4/$(REV)/e18c25-$(REL)-b4.vex.obs
+	diff out/e18g27-$(REL)-b4.vex.obs /Exps/e18g27/band4/$(REV)/e18g27-$(REL)-b4.vex.obs
+	diff out/e18d28-$(REL)-b4.vex.obs /Exps/e18d28/band4/$(REV)/e18d28-$(REL)-b4.vex.obs
+	diff out/e18c21-$(REL)-b4.v2d /Exps/e18c21/band4/$(REV)/e18c21-$(REL)-b4.v2d
+	diff out/e18e22-$(REL)-b4.v2d /Exps/e18e22/band4/$(REV)/e18e22-$(REL)-b4.v2d
+	diff out/e18a24-$(REL)-b4.v2d /Exps/e18a24/band4/$(REV)/e18a24-$(REL)-b4.v2d
+	diff out/e18c25-$(REL)-b4.v2d /Exps/e18c25/band4/$(REV)/e18c25-$(REL)-b4.v2d
+	diff out/e18g27-$(REL)-b4.v2d /Exps/e18g27/band4/$(REV)/e18g27-$(REL)-b4.v2d
+	diff out/e18d28-$(REL)-b4.v2d /Exps/e18d28/band4/$(REV)/e18d28-$(REL)-b4.v2d
 
 ####################################################################################
 ## EHT 2018 -- Band 2  golden scans
