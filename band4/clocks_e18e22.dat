@@ -1,10 +1,10 @@
 CLOCK
 # Station ID	Delay (usec)	Rate (usec)
-Aa		2107.147	0.019e-12 
+Aa              2107.147        0.019e-12 
 Ax              -0.30           -0.272e-12
 Lm              -0.35           -4.083e-12
-Mm              +0.45           +0.208e-12
-Mg              0.0             -2.243e-12
+Mm              +0.41           +0.208e-12
+Mg              -0.062          -2.243e-12
 Gl              -0.614          -6.470e-12
 Pv              +0.30           -0.038e-12
 ## SMA: ./vexdelay.py -f SMA_delays.csv.rx230.sbUSB.quad2.band4 -c 0.95 -r +208.056e-15 -s Sw -g 0.0
