@@ -10,4 +10,5 @@ mark6-06.serviceBHC%0016 (7)      BHC%0017 (8)      BHC%0018 (8)      BHC%0019 (
 mark6-07.serviceBHC%0134 (8)      BHC%0135 (8)      BHC%0138 (8)      BHC%0139 (8)   AA CD505 CD506 CD507 CD508
 mark6-08.serviceMPI%6414 (8)      MPI%6415 (8)      MPI%6416 (8)      MPI%6417 (8)   AX AB201 AB202 AB203 AB204
 
-GLT : /data/eht2018/GLT/band4/12/ /data/eht2018/GLT/band4/34/
+GLT  : /data/eht2018/GLT/band4/12/ /data/eht2018/GLT/band4/34/ has all observed data of c21 e22 c25 g27 d28; a24 not observed
+JCMT : /data/eht2018/JCMT/band14dsb/rcp/ has all observed data of c21 e22 a24 c25 g27 d28

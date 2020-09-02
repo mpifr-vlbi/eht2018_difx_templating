@@ -1,4 +1,4 @@
-e18c25 band 4
+e18g27 band 4
 
 Mark6 Module Location
 Machine     Slot 1 (# disks)  Slot 2 (# disks)  Slot 3 (# disks)  Slot 4 (# disks)
