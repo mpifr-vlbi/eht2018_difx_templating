@@ -2,11 +2,12 @@ e18e22 band 1
 
 Mark6 Module Location
 Machine     Slot 1 (# disks)  Slot 2 (# disks)  Slot 3 (# disks)  Slot 4 (# disks)
-mark6-02.serviceMPI%6422 (8)      MPI%6423 (8)      MPI%6424 (8)      MPI%6425 (8)
-mark6-03.servicePERI%007 (8)      PERI%008 (8)      PERI%009 (8)      PERI%010 (8)
-mark6-04.servicePERI%044 (8)      PERI%043 (8)      PERI%049 (8)      PERI%045 (8)
-mark6-05.servicePERI%021 (8)      PERI%022 (8)      PERI%023 (8)      PERI%024 (8)
-mark6-06.serviceBHC%0001 (8)      BHC%0002 (8)      BHC%0003 (8)      BHC%0004 (8)
-mark6-07.serviceBHC%0140 (8)      BHC%0141 (8)      BHC%0143 (8)      BHC%0105 (8)
-mark6-08.serviceMBHC%005 (8)      MBHC%006 (8)      MBHC%007 (8)      MBHC%011 (8)
+mark6-02.serviceMPI%6422 (8)      MPI%6423 (8)      MPI%6424 (8)      MPI%6425 (8)  PV CD401 CD402 CD403 CD404
+mark6-03.servicePERI%007 (8)      PERI%008 (8)      PERI%009 (8)      PERI%010 (8)  LM CD105 CD106 CD107 CD108
+mark6-04.servicePERI%044 (8)      PERI%043 (8)      PERI%049 (8)      PERI%045 (8)  SW AB104 AB105 AB205 AB305
+mark6-05.servicePERI%021 (8)      PERI%022 (8)      PERI%023 (8)      PERI%024 (8)  MG CD205 CD206 CD207 CD208
+mark6-06.serviceBHC%0001 (8)      BHC%0002 (8)      BHC%0003 (8)      BHC%0004 (8)  SZ CE801 CD102 CE803 CD104
+mark6-07.serviceBHC%0140 (8)      BHC%0141 (8)      BHC%0143 (8)      BHC%0105 (8)  AA CD501 CD502 CD503 CD504
+mark6-08.serviceMBHC%005 (8)      MBHC%006 (8)      MBHC%007 (8)      MBHC%011 (8)  AX AB301 AB302 AB303 AB304
+
 
