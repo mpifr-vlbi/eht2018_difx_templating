@@ -31,7 +31,7 @@ enddef;
 def Sw; * SMA APHIDS
   ** ./vexdelay.py -f SMA_delays.csv.rx230.sbUSB.quad2.band4 -c 0.95 \
   **               -r +208.056e-15 -s Sw -g 0.0 \
-  **               2018y110d22h38m00s 2018y117d09h33m00
+  **               2018y110d22h38m00s 2018y118d09h33m00s
   clock_early=2018y111d03h48m00s : 1.156055 usec : 2018y111d03h48m00s : 2.08056e-13 ;
   clock_early=2018y111d04h12m00s : 1.156787 usec : 2018y111d04h12m00s : 2.08056e-13 ;
   clock_early=2018y111d04h20m00s : 1.154590 usec : 2018y111d04h20m00s : 2.08056e-13 ;
@@ -190,6 +190,35 @@ def Sw; * SMA APHIDS
   clock_early=2018y117d09h08m00s : 1.028369 usec : 2018y117d09h08m00s : 2.08056e-13 ;
   clock_early=2018y117d09h18m00s : 1.042529 usec : 2018y117d09h18m00s : 2.08056e-13 ;
   clock_early=2018y117d09h28m00s : 1.029590 usec : 2018y117d09h28m00s : 2.08056e-13 ;
+  clock_early=2018y118d03h33m00s : 1.030322 usec : 2018y118d03h33m00s : 2.08056e-13 ;
+  clock_early=2018y118d03h43m00s : 1.028857 usec : 2018y118d03h43m00s : 2.08056e-13 ;
+  clock_early=2018y118d03h52m00s : 1.028369 usec : 2018y118d03h52m00s : 2.08056e-13 ;
+  clock_early=2018y118d04h17m00s : 1.028613 usec : 2018y118d04h17m00s : 2.08056e-13 ;
+  clock_early=2018y118d05h15m00s : 1.029102 usec : 2018y118d05h15m00s : 2.08056e-13 ;
+  clock_early=2018y118d05h22m00s : 1.031055 usec : 2018y118d05h22m00s : 2.08056e-13 ;
+  clock_early=2018y118d05h53m00s : 1.028613 usec : 2018y118d05h53m00s : 2.08056e-13 ;
+  clock_early=2018y118d06h01m00s : 1.029834 usec : 2018y118d06h01m00s : 2.08056e-13 ;
+  clock_early=2018y118d06h10m00s : 1.029346 usec : 2018y118d06h10m00s : 2.08056e-13 ;
+  clock_early=2018y118d06h17m00s : 1.029590 usec : 2018y118d06h17m00s : 2.08056e-13 ;
+  clock_early=2018y118d06h23m00s : 1.028369 usec : 2018y118d06h23m00s : 2.08056e-13 ;
+  clock_early=2018y118d06h31m00s : 1.029346 usec : 2018y118d06h31m00s : 2.08056e-13 ;
+  clock_early=2018y118d06h41m00s : 1.028125 usec : 2018y118d06h41m00s : 2.08056e-13 ;
+  clock_early=2018y118d06h54m00s : 1.043018 usec : 2018y118d06h54m00s : 2.08056e-13 ;
+  clock_early=2018y118d07h03m00s : 1.030566 usec : 2018y118d07h03m00s : 2.08056e-13 ;
+  clock_early=2018y118d07h13m00s : 1.029102 usec : 2018y118d07h13m00s : 2.08056e-13 ;
+  clock_early=2018y118d07h20m00s : 1.030811 usec : 2018y118d07h20m00s : 2.08056e-13 ;
+  clock_early=2018y118d07h28m00s : 1.030566 usec : 2018y118d07h28m00s : 2.08056e-13 ;
+  clock_early=2018y118d07h37m00s : 1.029834 usec : 2018y118d07h37m00s : 2.08056e-13 ;
+  clock_early=2018y118d07h48m00s : 1.028125 usec : 2018y118d07h48m00s : 2.08056e-13 ;
+  clock_early=2018y118d08h01m00s : 1.031055 usec : 2018y118d08h01m00s : 2.08056e-13 ;
+  clock_early=2018y118d08h10m00s : 1.030078 usec : 2018y118d08h10m00s : 2.08056e-13 ;
+  clock_early=2018y118d08h17m00s : 1.028125 usec : 2018y118d08h17m00s : 2.08056e-13 ;
+  clock_early=2018y118d08h26m00s : 1.027393 usec : 2018y118d08h26m00s : 2.08056e-13 ;
+  clock_early=2018y118d08h35m00s : 1.030566 usec : 2018y118d08h35m00s : 2.08056e-13 ;
+  clock_early=2018y118d08h44m00s : 1.029834 usec : 2018y118d08h44m00s : 2.08056e-13 ;
+  clock_early=2018y118d08h53m00s : 1.030322 usec : 2018y118d08h53m00s : 2.08056e-13 ;
+  clock_early=2018y118d09h07m00s : 1.029102 usec : 2018y118d09h07m00s : 2.08056e-13 ;
+  clock_early=2018y118d09h16m00s : 1.028125 usec : 2018y118d09h16m00s : 2.08056e-13 ;
 enddef;
 *
 def Sz; * SPT
