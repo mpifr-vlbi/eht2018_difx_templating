@@ -128,7 +128,8 @@ def Sw; * SMA APHIDS
   clock_early=2018y115d05h24m00s : 0.956701 usec : 2018y115d05h24m00s : 2.08e-13 ;
   clock_early=2018y115d05h32m00s : 0.953772 usec : 2018y115d05h32m00s : 2.08e-13 ;
   clock_early=2018y115d05h43m00s : 0.954504 usec : 2018y115d05h43m00s : 2.08e-13 ;
-  clock_early=2018y115d05h56m00s : -1023.250574 usec : 2018y115d05h56m00s : 2.08e-13 ;
+*Mike retained, JanW commented out:
+**clock_early=2018y115d05h56m00s : -1023.250574 usec : 2018y115d05h56m00s : 2.08e-13 ;
   clock_early=2018y115d06h04m00s : 0.954748 usec : 2018y115d06h04m00s : 2.08e-13 ;
   clock_early=2018y115d06h14m00s : 0.957190 usec : 2018y115d06h14m00s : 2.08e-13 ;
   clock_early=2018y115d06h24m00s : 0.955969 usec : 2018y115d06h24m00s : 2.08e-13 ;
