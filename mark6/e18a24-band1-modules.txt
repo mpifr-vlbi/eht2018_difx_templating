@@ -6,8 +6,8 @@ mark6-02.serviceMPI%6422 (8)      MPI%6423 (8)      MPI%6424 (8)      MPI%6425 (
 mark6-03.servicePERI%007 (8)      PERI%008 (8)      PERI%009 (8)      PERI%010 (8)  LM CD105 CD106 CD107 CD108
 mark6-04.servicePERI%044 (8)      PERI%043 (8)      PERI%049 (8)      PERI%045 (8)  SW AB104 AB105 AB205 AB305
 mark6-05.servicePERI%021 (8)      PERI%022 (8)      PERI%023 (8)      PERI%024 (8)  MG CD205 CD206 CD207 CD208
-mark6-06.serviceBHC%0001 (8)      BHC%0002 (8)      BHC%0003 (8)      BHC%0004 (8)  SZ CE801 CD102 CE803 CD104
-mark6-07.serviceBHC%0140 (8)      BHC%0141 (8)      BHC%0143 (8)      BHC%0105 (8)  AA CD501 CD502 CD503 CD504
+mark6-06.serviceBHC%0001 (8)      BHC%0002 (8)      BHC%0003 (8)      BHC%0004 (8)  SZ CE801 CD102 CE803 CD104 set 1
+mark6-07.serviceBHC%0140 (8)      BHC%0141 (8)      BHC%0143 (8)      BHC%0105 (8)  AA CD501 CD502 CD503 CD504 set 1
 mark6-08.serviceMBHC%005 (8)      MBHC%006 (8)      MBHC%007 (8)      MBHC%011 (8)  AX AB301 AB302 AB303 AB304
 
-
+JCMT : /data/eht2018/JCMT/band14dsb/rcp/ has all observed data of c21 e22 a24 c25 g27 d28
