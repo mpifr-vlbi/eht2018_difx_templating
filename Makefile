@@ -22,6 +22,9 @@ install: install_b1 install_b4
 
 diff: diff_b1 diff_b4
 
+clockdiff:
+	cd band1 ; for fn in `ls clock*.dat`; do echo -e "\n$$fn"; sdiff $$fn ../band4/$$fn ; done ; true
+
 ####################################################################################
 ## Install file lists (see Makefile.inc for correlator $(SITE)
 ####################################################################################
