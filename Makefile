@@ -73,12 +73,14 @@ c21b1:
 	./tvex2vex.py -I./band1/ -I./common/ base/e18c21.vext out/e18c21-$(REL)-b1.vex.obs
 	./tvex2vex.py -I./band1/ -I./common/ base/e18c21.v2dt out/e18c21-$(REL)-b1.v2d
 	sed -i "s/e18c21-0-b/e18c21-${REL}-b/g" out/e18c21-$(REL)-b1.v2d
+	sed -i 's/deltaClock = 0 # SMA extra offsets/deltaClock = 0 # SMA extra offsets/g' out/e18c21-$(REL)-b1.v2d
 
 e22b1:
 	@echo
 	./tvex2vex.py -I./band1/ -I./common/ base/e18e22.vext out/e18e22-$(REL)-b1.vex.obs
 	./tvex2vex.py -I./band1/ -I./common/ base/e18e22.v2dt out/e18e22-$(REL)-b1.v2d
 	sed -i "s/e18e22-0-b/e18e22-${REL}-b/g" out/e18e22-$(REL)-b1.v2d
+	sed -i 's/deltaClock = 0 # SMA extra offsets/deltaClock = 0 # SMA extra offsets/g' out/e18e22-$(REL)-b1.v2d
 
 a24b1:
 	@echo
@@ -99,7 +101,7 @@ g27b1:
 	./tvex2vex.py -I./band1/ -I./common/ base/e18g27.vext out/e18g27-$(REL)-b1.vex.obs
 	./tvex2vex.py -I./band1/ -I./common/ base/e18g27.v2dt out/e18g27-$(REL)-b1.v2d
 	sed -i "s/e18g27-0-b/e18g27-${REL}-b/g" out/e18g27-$(REL)-b1.v2d
-	sed -i 's/deltaClock = 0 # SMA extra offsets/deltaClock = -0.035 # SMA extra offsets/g' out/e18g27-$(REL)-b1.v2d
+	sed -i 's/deltaClock = 0 # SMA extra offsets/deltaClock = -0.103 # SMA extra offsets/g' out/e18g27-$(REL)-b1.v2d
 
 d28b1:
 	@echo
