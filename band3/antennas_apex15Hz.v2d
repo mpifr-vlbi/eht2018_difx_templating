@@ -1,0 +1,6 @@
+ANTENNA Ax {
+  datastreams = Ax_ds12,Ax_ds34
+  phaseCalInt = 0
+  zoom = zooms
+  loOffsets = +15.022,+15.022 # c21,e22: 15.022 Hz, a24,c25,...: 0 Hz
+}
