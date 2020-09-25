@@ -1,0 +1,13 @@
+pc_mode manual            * manual phase required
+weak_channel 0.0          * shut up about code G
+optimize_closure true     * expected to be better
+mbd_anchor sbd            * model isn't too good
+gen_cf_record true        * for debugging 
+
+sb_win -2048.0 +2048.0
+mb_win -1.0 +1.0
+dr_win -1.0 +1.0
+
+* sb_win -0.10     0.10     * SBD search window
+* mb_win -0.008    0.008    * MBD search window
+* dr_win -0.000001 0.000001 * Delay Rate window

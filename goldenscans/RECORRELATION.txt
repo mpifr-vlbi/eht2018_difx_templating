@@ -1,0 +1,117 @@
+** Notes for Recorrelation **
+
+   The Bonn results i.e. correlator setups, visibility data before and after polconvert, HOPS setups,
+   the A-list files, scripts, file lists, etc were copied onto each RAID5 module at Bonn using
+     rsync -axv /Exps/TESTS/EHT_2018/goldenscans/ /mnt/gsEHT2018/difx/
+
+   Absolute paths referenced from within the copied correlation jobs thus match the Bonn MPIfR
+   cluster setup, but they *differ* from the location of copied files on the RAID5 module.
+
+   (1) Make local copy of VDIF data
+
+     You likely must copy the VDIF data files (~27.4TB) onto your local cluster file system
+     and **regenerate file lists** to get properly set up prior to recorrelating anything; running
+     a correlation directly off the Mark6 module is most likely not possible. Standard Mark6's
+     have relatively little RAM (64G) and have trouble running all of the 12 DiFX datastream
+     instances (e.g., scan 112-1318, 6-station 2-pol) on a single Mark6 unit.
+
+   (2) Create localized file lists
+
+     Filelists reflecting the Bonn MPIfR cluster are under /mnt/gsEHT2018/difx/filelists/.
+
+     $ vim ./difx/regenerate_filelists.sh             # manually change RECORDINGS_DIR as needed
+     $ source /data/cluster/difx/DiFX-262/setup_difx  # prepare difx environment, need 'vsum' in path
+
+     $ . ./difx/regenerate_filelists.sh
+
+     Some generated file lists will be duplicate, given in naming styles of both Haystack ("mod-12-Aa.b1.flist")
+     and Bonn MPIfR ("ehtc2018_ALMA_set1_band1.12.filelist").
+
+   (3) Copy the correlation setup into a new directory
+
+     $ cd /mnt/gsEHT2018/difx
+     $ cp -av corr_rev0_Skeleton corr_rev0_<uniquetag>
+     $ cd corr_rev0_<uniquetag>
+
+   (4) Begin "pipelined" run of four-band correlation and postprocessing
+
+     $ source /data/cluster/difx/DiFX-262/setup_difx  # prepare difx environment
+     $ grep `hostname`  $DIFX_MACHINES                # make sure your current host is an allowed headnode in the machines file $DIFX_MACHINES
+     $ ./reprocess.sh
+
+     The reprocess.sh script carries out all default steps (implemented as bash functions) that
+     are listed at the end of reprocess.sh, namely:
+
+     pristine
+     recorrelate
+     repolconvert
+     compare
+     comparePolconverted
+
+     After a successful run of reprocess.sh you should see compare-baselines-v6.pl comparison
+     results of your local correlation versus DiFX 2.5.3 results from Bonn.
+
+
+** Expected Data **
+
+VDIF
+
+    Aa  3 scans x 4 bands
+    Ax  1 scan  x 4 bands
+    Gl  1 scan  x 2 bands
+    Lm  1 scan  x 4 bands
+    Mg  4 scans x 4 bands
+    Mm  2 scans x 2 dsbbands (b14, b23)
+    Pv  2 scans x 4 bands
+    Sw  2 scans x 4 bands
+    Sz  3 scans x 4 bands   +  1 scan x 2 bands
+
+
+HOPS 3645
+
+    == 112-1318 ==
+            b1    b2    b3    b4
+    ALMA    ok    ok    ok    ok
+    LMT     ok    ok    ok    ok
+    APEX    ND    ND    ND    ND
+    SMA     ok    ok    ok    ok
+    JCMT    ok    ok    ok    ok
+    SMTO    ok    ok    ok    ok
+    SPT     ok    ok    ok    ok
+
+    (ND=no data; did actually record the scan but
+    had no fringes hence omitted from goldenscans module)
+
+HOPS 3647
+
+   == 115-0314 ==
+           b1    b2    b3    b4
+   ALMA    ok    ok    ok    ok
+   APEX    ok    ok    ok    ok
+   SMTO    ok    ok    ok    ok
+   SPT     ok    ok    ok    ok
+   Pico    ok    ok    ok    ok
+   GLT     --    --    ok    ok
+
+HOPS 3649
+
+   == 118-0247 ==
+           b1    b2    b3    b4
+   ALMA    --    --    --    --
+   SPT     ok    ND!   ND!   ok
+   Pico    ok    ok    ok    ok
+   SMTO    ok    ok    ok    ok
+   GLT     --    --    NF    NF
+
+   == 118-0720 ==
+           b1    b2    b3    b4
+   ALMA    ok    ok    ok    ok
+   JCMT    ok    ok    ok    ok
+   SMA     ok    ok    ok    ok
+   SPT     ok    ok    ok    ok
+   SMTO    ok    ok    ok    ok
+   GLT     --    --    --    --
+
+   (ND!=no recorded data despite schedule, NF=no fringes)
+
+

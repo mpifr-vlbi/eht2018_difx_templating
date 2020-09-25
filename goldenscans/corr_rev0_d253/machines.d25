@@ -1,0 +1,48 @@
+version = 1.0
+
+## fxmanager, 2, 0
+fxmanager, 2, 0, file://data file:///data13                  # for 07/2019 use data13 via fxmanager, io13 lacks /data/cluster/difx/
+fxmanager.service, 2, 0
+frontend, 2, 0
+fxmanager2, 2, 0
+node[01-66], 1, 19
+io01, 1, 0, file:///data
+io02, 1, 0, file:///data
+io03, 1, 0, file:///data
+## node68, 1, 0, file:///data11
+io11, 1, 0, file:///data11
+## io12, 1, 0, file:///data12 file:///io12_fuse   # cannot use 07/2019 due to no /data/cluster/difx/
+## io13, 1, 0, file:///data13                     # cannot use 07/2019 due to no /data/cluster/difx/
+io14, 1, 0, file:///data14
+mark5fx01, 1, 0, file:///mark5fx01_fuse mark5://
+mark5fx02, 1, 0, file:///mark5fx02_fuse mark5://
+mark5fx03, 1, 0, file:///mark5fx03_fuse mark5://
+mark5fx04, 1, 0, file:///mark5fx04_fuse mark5://
+mark5fx05, 1, 0, file:///mark5fx05_fuse mark5://
+mark5fx06, 1, 0, file:///mark5fx06_fuse mark5://
+mark5fx07, 1, 0, file:///mark5fx07_fuse mark5://
+mark5fx08, 1, 0, file:///mark5fx08_fuse mark5://
+mark5fx09, 1, 0, file:///mark5fx09_fuse mark5://
+mark5fx10, 1, 0, file:///mark5fx10_fuse mark5://
+mark5fx11, 1, 0, file:///mark5fx11_fuse mark5://
+mark5fx12, 1, 0, file:///mark5fx12_fuse mark5://
+mark5fx13, 1, 0, file:///mark5fx13_fuse mark5://
+mark5fx14, 1, 0, file:///mark5fx14_fuse mark5://
+mark5fx15, 1, 0, file:///mark5fx15_fuse mark5://
+mark6-01.service, 1, 0, mark6:// file:///mark6-01_fuse file:///raid
+mark6-02.service, 1, 0, mark6:// file:///mark6-02_fuse
+mark6-03, 1, 0, mark6:// file:///mark6-03_fuse
+mark6-04, 1, 0, mark6:// file:///mark6-04_fuse
+mark6-05, 1, 0, mark6:// file:///mark6-05_fuse
+mark6-06, 1, 0, mark6:// file:///mark6-06_fuse
+mark6-07, 1, 0, mark6:// file:///mark6-07_fuse
+mark6-08, 1, 0, mark6:// file:///mark6-08_fuse
+node50, 0, 38 # Helge Test
+node[02-04], 0, 38 # reserved for Roberto Angioni
+node[05-18], 0, 38 # reserved for Gunther Witzel
+node19, 0, 38 #reserved from F.Jaron
+node[60-66], 0, 38 # reserved for Nick McDonald
+node29, 0, 38
+node46, 0, 38
+node33, 0, 38
+node39, 0, 38

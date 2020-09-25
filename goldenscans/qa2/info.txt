@@ -1,0 +1,12 @@
+
+Actual APP QA2 deliverables are not stored here in git repo due to their large size.
+Need to get them from "elsewhere". The files are:
+
+oper@fxmanager: ~> ll /Exps/TESTS/EHT_2018//goldenscans/qa2/
+total 671576
+drwxr-xr-x  2 oper oper         4096 Mar 25  2020 .
+drwxr-xr-x 15 oper oper         4096 Sep 22 14:30 ..
+-rw-rw-r--  1 oper ehtsync  35738064 Dec 30  2019 2017.1.01181.V_cena_trackD-20191103.APP_DELIVERABLES.tgz
+-rw-rw-r--  1 oper ehtsync 323865920 Dec 30  2019 track-e18c25-20191027.APP_DELIVERABLES.tgz
+-rw-rw-r--  1 oper ehtsync 328074698 Dec 30  2019 tracke-20191026.APP_DELIVERABLES.tgz
+
