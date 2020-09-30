@@ -128,18 +128,18 @@ install_b1:
 	cp -a out/e18d28-$(REL)-b1.v* /Exps/e18d28/band1/$(REV)/
 
 diff_b1:
-	diff out/e18c21-$(REL)-b1.vex.obs /Exps/e18c21/band1/$(REV)/e18c21-$(REL)-b1.vex.obs
-	diff out/e18e22-$(REL)-b1.vex.obs /Exps/e18e22/band1/$(REV)/e18e22-$(REL)-b1.vex.obs
-	diff out/e18a24-$(REL)-b1.vex.obs /Exps/e18a24/band1/$(REV)/e18a24-$(REL)-b1.vex.obs
-	diff out/e18c25-$(REL)-b1.vex.obs /Exps/e18c25/band1/$(REV)/e18c25-$(REL)-b1.vex.obs
-	diff out/e18g27-$(REL)-b1.vex.obs /Exps/e18g27/band1/$(REV)/e18g27-$(REL)-b1.vex.obs
-	diff out/e18d28-$(REL)-b1.vex.obs /Exps/e18d28/band1/$(REV)/e18d28-$(REL)-b1.vex.obs
-	diff out/e18c21-$(REL)-b1.v2d /Exps/e18c21/band1/$(REV)/e18c21-$(REL)-b1.v2d
-	diff out/e18e22-$(REL)-b1.v2d /Exps/e18e22/band1/$(REV)/e18e22-$(REL)-b1.v2d
-	diff out/e18a24-$(REL)-b1.v2d /Exps/e18a24/band1/$(REV)/e18a24-$(REL)-b1.v2d
-	diff out/e18c25-$(REL)-b1.v2d /Exps/e18c25/band1/$(REV)/e18c25-$(REL)-b1.v2d
-	diff out/e18g27-$(REL)-b1.v2d /Exps/e18g27/band1/$(REV)/e18g27-$(REL)-b1.v2d
-	diff out/e18d28-$(REL)-b1.v2d /Exps/e18d28/band1/$(REV)/e18d28-$(REL)-b1.v2d
+	diff out/e18c21-$(REL)-b1.vex.obs /Exps/e18c21/band1/$(REV)/e18c21-$(REL)-b1.vex.obs ; true
+	diff out/e18e22-$(REL)-b1.vex.obs /Exps/e18e22/band1/$(REV)/e18e22-$(REL)-b1.vex.obs ; true
+	diff out/e18a24-$(REL)-b1.vex.obs /Exps/e18a24/band1/$(REV)/e18a24-$(REL)-b1.vex.obs ; true
+	diff out/e18c25-$(REL)-b1.vex.obs /Exps/e18c25/band1/$(REV)/e18c25-$(REL)-b1.vex.obs ; true
+	diff out/e18g27-$(REL)-b1.vex.obs /Exps/e18g27/band1/$(REV)/e18g27-$(REL)-b1.vex.obs ; true
+	diff out/e18d28-$(REL)-b1.vex.obs /Exps/e18d28/band1/$(REV)/e18d28-$(REL)-b1.vex.obs ; true
+	diff out/e18c21-$(REL)-b1.v2d /Exps/e18c21/band1/$(REV)/e18c21-$(REL)-b1.v2d ; true
+	diff out/e18e22-$(REL)-b1.v2d /Exps/e18e22/band1/$(REV)/e18e22-$(REL)-b1.v2d ; true
+	diff out/e18a24-$(REL)-b1.v2d /Exps/e18a24/band1/$(REV)/e18a24-$(REL)-b1.v2d ; true
+	diff out/e18c25-$(REL)-b1.v2d /Exps/e18c25/band1/$(REV)/e18c25-$(REL)-b1.v2d ; true
+	diff out/e18g27-$(REL)-b1.v2d /Exps/e18g27/band1/$(REV)/e18g27-$(REL)-b1.v2d ; true
+	diff out/e18d28-$(REL)-b1.v2d /Exps/e18d28/band1/$(REV)/e18d28-$(REL)-b1.v2d ; true
 
 ####################################################################################
 ## EHT 2018 -- Band 4
@@ -202,18 +202,18 @@ install_b4:
 	cp -a out/e18d28-$(REL)-b4.v* /Exps/e18d28/band4/$(REV)/
 
 diff_b4:
-	diff out/e18c21-$(REL)-b4.vex.obs /Exps/e18c21/band4/$(REV)/e18c21-$(REL)-b4.vex.obs
-	diff out/e18e22-$(REL)-b4.vex.obs /Exps/e18e22/band4/$(REV)/e18e22-$(REL)-b4.vex.obs
-	diff out/e18a24-$(REL)-b4.vex.obs /Exps/e18a24/band4/$(REV)/e18a24-$(REL)-b4.vex.obs
-	diff out/e18c25-$(REL)-b4.vex.obs /Exps/e18c25/band4/$(REV)/e18c25-$(REL)-b4.vex.obs
-	diff out/e18g27-$(REL)-b4.vex.obs /Exps/e18g27/band4/$(REV)/e18g27-$(REL)-b4.vex.obs
-	diff out/e18d28-$(REL)-b4.vex.obs /Exps/e18d28/band4/$(REV)/e18d28-$(REL)-b4.vex.obs
-	diff out/e18c21-$(REL)-b4.v2d /Exps/e18c21/band4/$(REV)/e18c21-$(REL)-b4.v2d
-	diff out/e18e22-$(REL)-b4.v2d /Exps/e18e22/band4/$(REV)/e18e22-$(REL)-b4.v2d
-	diff out/e18a24-$(REL)-b4.v2d /Exps/e18a24/band4/$(REV)/e18a24-$(REL)-b4.v2d
-	diff out/e18c25-$(REL)-b4.v2d /Exps/e18c25/band4/$(REV)/e18c25-$(REL)-b4.v2d
-	diff out/e18g27-$(REL)-b4.v2d /Exps/e18g27/band4/$(REV)/e18g27-$(REL)-b4.v2d
-	diff out/e18d28-$(REL)-b4.v2d /Exps/e18d28/band4/$(REV)/e18d28-$(REL)-b4.v2d
+	diff out/e18c21-$(REL)-b4.vex.obs /Exps/e18c21/band4/$(REV)/e18c21-$(REL)-b4.vex.obs ; true
+	diff out/e18e22-$(REL)-b4.vex.obs /Exps/e18e22/band4/$(REV)/e18e22-$(REL)-b4.vex.obs ; true
+	diff out/e18a24-$(REL)-b4.vex.obs /Exps/e18a24/band4/$(REV)/e18a24-$(REL)-b4.vex.obs ; true
+	diff out/e18c25-$(REL)-b4.vex.obs /Exps/e18c25/band4/$(REV)/e18c25-$(REL)-b4.vex.obs ; true
+	diff out/e18g27-$(REL)-b4.vex.obs /Exps/e18g27/band4/$(REV)/e18g27-$(REL)-b4.vex.obs ; true
+	diff out/e18d28-$(REL)-b4.vex.obs /Exps/e18d28/band4/$(REV)/e18d28-$(REL)-b4.vex.obs ; true
+	diff out/e18c21-$(REL)-b4.v2d /Exps/e18c21/band4/$(REV)/e18c21-$(REL)-b4.v2d ; true
+	diff out/e18e22-$(REL)-b4.v2d /Exps/e18e22/band4/$(REV)/e18e22-$(REL)-b4.v2d ; true
+	diff out/e18a24-$(REL)-b4.v2d /Exps/e18a24/band4/$(REV)/e18a24-$(REL)-b4.v2d ; true
+	diff out/e18c25-$(REL)-b4.v2d /Exps/e18c25/band4/$(REV)/e18c25-$(REL)-b4.v2d ; true
+	diff out/e18g27-$(REL)-b4.v2d /Exps/e18g27/band4/$(REV)/e18g27-$(REL)-b4.v2d ; true
+	diff out/e18d28-$(REL)-b4.v2d /Exps/e18d28/band4/$(REV)/e18d28-$(REL)-b4.v2d ; true
 
 ####################################################################################
 ## EHT 2018 -- Band 2  golden scans
