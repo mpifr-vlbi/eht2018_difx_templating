@@ -26,8 +26,9 @@ ANTENNA Gl {
 }
 ANTENNA Lm {
   datastreams = Lmt_ds12,Lmt_ds34
-  # loOffsets = -0.11,-0.11  a priori speculative LO offset 
-  loOffsets=-0.018,-0.018
+  # loOffsets = -0.11,-0.11    tentative a priori added by V.Fish eht-wiki 30 Apr 2018
+  # loOffsets = -0.018,-0.018  better fitting prior
+  loOffsets = 0,0  # most likely
   phaseCalInt = 0
   toneSelection = none
   zoom = zooms
