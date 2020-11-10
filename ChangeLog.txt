@@ -1,0 +1,21 @@
+
+Rev v1b:
+ 
+  Updated LMT to have 0 Hz LO offset
+  - Removed the eht-wiki -provided (V. Fish edit) a priori assumption of -0.110/+0.110 Hz LO offset.
+    The 0.11 Hz offset has no documentation trail, not found on Slack, Teamworks, email.
+    Likely to not have originated from a priori infos from LMT. Did not fit data either.
+  - Residual rate is now ~18 mHz with the LMT 0 Hz LO offset, still high, but better than ~119 mHz before.
+
+  Nudged LMT and SMA clocks slightly
+  - Updated SMA clock offsets on per-track basis in band 1, had omitted this in rev1.
+  - The SMA clock offsets differ (jump) each day. Perhaps whole-campaing data files (SMA_delays.csv x b1..b4)
+    do not account for per-day offsets in the end. Difference is small, ~100ns level.
+
+Rev v1a:
+
+ - updated SgrA in ./common/sources* to indeed be 
+      17:45:40.035600 -29.00.28.24000
+   after https://eventhorizontelescope.teamwork.com/#/notebooks/165941 finding
+   a mixture of source coordinates; SgrA affected, M87 is proper
+
