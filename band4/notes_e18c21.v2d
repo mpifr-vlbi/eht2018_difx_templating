@@ -1,0 +1,7 @@
+
+# Manual phase calib scans
+# 1007 110-2351 3C279    -s A,X,P,Y    remain G,L,Z,J,S
+# 1026 111-0259 3C279    -s A,G        remain L,Z,J,S
+# 1047 111-0630 3C279    -s A,L,Z,J,S  remain none
+#
+#   GLT  : not really usable fringes in this track

@@ -1,0 +1,11 @@
+
+# Manual phase calib scans
+# 1006 112-0021 3C279 -s A,X
+# 1023 112-0321 3C279 -s A,L
+# 1026 112-0348 3C279 -s A,Y,Z
+# 1071 112-1318 J1924 -s A,J,S
+#
+#   Pico : did not observe e18e22
+#   GLT  : not really usable fringes in this track
+
+
