@@ -24,6 +24,22 @@
         ARRAY /dev/md/mark6-07:0 metadata=1.2 name=mark6-07:0 UUID=8e850422:64267f7c:b3376851:574990a0
         ARRAY /dev/md/mark6-07:1 metadata=1.2 name=mark6-07:1 UUID=908c374b:7039e7ab:d083288b:071f645d
 
+      # New module for Haystack, generated on plain uncustomized Mark6 as delivered from Haystack:
+
+      $ for disk in sdb sdc sdd sde sdf sdg sdh sdi; do  parted -a optimal $disk ; done
+			mklabel gpt
+			yes
+			mkpart primary xfs 0% 100%
+			set 1 raid on
+			quit
+      $ mdadm --create --verbose /dev/md0 --level=5 --raid-devices=8 /dev/sd{b,c,d,e,f,g,h,i}1
+        mdadm: size set to 5860519424K
+        mdadm: Defaulting to version 1.2 metadata
+        mdadm: array /dev/md0 started.
+      $ mkfs.xfs -d su=256k -d sw=7 /dev/md0
+      $ mdadm --detail --scan
+        ARRAY /dev/md0 metadata=1.2 spares=1 name=Mark6-4XXX:0 UUID=4f08740d:0f66ec3f:a40936a4:5c9c591a
+
 ** Scans on the RAID5 Module **
 
    Scan       Source  HOPS   VEX     Stations                        Notes
